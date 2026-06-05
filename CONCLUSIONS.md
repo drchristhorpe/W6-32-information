@@ -251,7 +251,51 @@ the part that moves on binding and was hardest to predict (4b) — so it is both
 key recognition determinant and the region to handle as flexible / refine toward
 the bound state in design.
 
+## Job 7 — the antibody side: W6/32 heavy-chain VH for nanobody design
+
+**Task:** on the W6/32 heavy-chain variable region (VH), find the **antigen contact
+patches** and the **totally solvent-exposed patches that were previously light-chain
+contacts** (the VH→VHH interface to re-engineer). Also extract the VH sequence for
+prediction.
+
+**Method:** chain H is a Fab heavy chain (1–215); VH = residues ≤120.
+`interface-contacts` for both contact sets; BioPython `ShrakeRupley` SASA on the
+**isolated heavy chain**, relative SASA via Tien (2013) max-ASA, RSA ≥ 50 % = "totally
+exposed". Driver `analysis/q7_w632_heavy_paratope.py`; results in `analysis/results/q7/`.
+
+**VH sequence (120 aa, for folding/design)** → `analysis/results/q7/w632_VH.fasta`:
+```
+VQLKQSGPGLVQPSQSLSLTCTVSGFSLTSYGVHWVRQPPGKGLEWLGVIWSGGSTDYNAAFISRLSIRKDNSKSQVFFKMNSLQADDTAIYYCARTFTTSTSAWFAYWGQGTLVTVSAA
+```
+
+**(a) Antigen contact patch on VH (24 residues — keep in a nanobody):** clusters in
+CDR2 (Trp51–Asp57Tyr58), a framework/CDR-H2 stretch (Ser67, Ile68, **Arg69**, Asp71,
+Lys74, Phe78, Lys80) and CDR3 (Thr99–Ala104). **Arg69** is the same heavy-chain residue
+that salt-bridges α3 Glu229 in the footprint — consistent with the antigen-side analysis.
+
+**(b) Former light-chain contacts on VH, ranked by exposure when L is removed**
+(26 residues; 5 above RSA 50 %):
+
+| residue | RSA (H alone) | note |
+|---|---|---|
+| Thr102 | 61.9 % | CDR3-adjacent |
+| Ala60 | 61.6 % | |
+| **Lys42, Gly43** | 55.0 %, 53.8 % | framework-2 (classic VHH hallmark region) |
+| Ala104 | 50.2 % | CDR3 edge |
+| Leu44, Trp105, Gln111, Phe98 | 44–50 % | near threshold |
+
+**Conclusion / design use:** the VH paratope to preserve is the CDR2/CDR3 patch
+(incl. Arg69). The residues that become solvent-exposed once the light chain is
+removed — led by **Thr102, Ala60, Lys42, Gly43, Ala104**, with the **framework-2
+Lys42/Gly43/Leu44** matching the canonical VH→VHH hallmark positions — are the sites
+to mutate to hydrophilic VHH-type residues to keep an isolated VH soluble/stable.
+
+**Caveat:** VH boundary (≤120) is by sequential numbering, not Kabat; the "exposed"
+set depends on the RSA threshold and uses SASA of the heavy chain held in its bound
+conformation (a real isolated VH would relax). Treat the ranking as a prioritised
+shortlist, not absolute.
+
 ---
 
-*All aims (1–4), extension tasks (4a–4d) and build jobs (1–3, 5–6) are addressed
+*All aims (1–4), extension tasks (4a–4d) and build jobs (1–3, 5–7) are addressed
 above; the five composable tools are listed in CLAUDE.md.*

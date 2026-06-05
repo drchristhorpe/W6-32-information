@@ -153,3 +153,15 @@ extension answered.
 - **List 2 (move on binding, ≥1 Å, 12 pos):** α3 363–371 (Gln367 peak 4.35 Å) +
   Lys384/Thr374, and β2m Ile25 — the conformationally responsive core. Written up
   in CONCLUSIONS.md job 6. Result `analysis/results/q6/interface_on_sct.json`.
+
+### Job 7 — antibody-side VH analysis for nanobody design
+
+- `analysis/q7_w632_heavy_paratope.py`: on the W6/32 heavy-chain VH (chain H ≤120),
+  uses `interface-contacts` (antigen H×{A,B}; light chain H×L) + BioPython
+  `ShrakeRupley` SASA (relative SASA via Tien 2013, RSA≥50% = exposed).
+- **Antigen patch (24 VH residues):** CDR2 (51–58), a framework/CDR-H2 stretch
+  (67–80, incl. **Arg69** = the α3-Glu229 salt-bridge partner), CDR3 (99–104).
+- **Former-VL contacts now exposed (5 at RSA≥50%):** Thr102, Ala60, Lys42, Gly43,
+  Ala104 — framework-2 Lys42/Gly43 match the canonical VH→VHH hallmark sites to
+  mutate. Extracted **VH sequence (120 aa)** → `analysis/results/q7/w632_VH.fasta`
+  for folding/prediction (per request). Written up in CONCLUSIONS.md job 7.

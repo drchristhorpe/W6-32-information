@@ -183,3 +183,25 @@ interface that move on binding**.
 
 Driver `analysis/q6_map_interface_to_sct.py`; results in `analysis/results/q6/`;
 write-up in CONCLUSIONS.md.
+
+---
+
+# Addendum (2026-06-05): job 7 — the antibody-side (heavy-chain VH) view for nanobody design
+
+**Task:** on the W6/32 heavy-chain variable region (VH), find (a) the **contact
+patches** with the antigen, and (b) the **totally solvent-exposed patches that
+were previously light-chain contacts** (the VH→VHH interface to re-engineer).
+
+**Method (analysis driver, existing tool + BioPython SASA):** chain H is a Fab
+heavy chain (1–215 = VH + CH1); take **VH = residues ≤120**.
+- **(a) Antigen patch:** `interface-contacts` epitope = HLA+β2m (A,B), paratope =
+  heavy (H); the paratope footprint ∩ VH = VH residues binding antigen (CDRs — keep
+  in a nanobody).
+- **(b) Former-VL patch now exposed:** `interface-contacts` epitope = H, paratope =
+  light (L); the H footprint ∩ VH = VH–VL interface. Then compute per-residue SASA
+  of the **heavy chain alone** (BioPython `ShrakeRupley`) and relative SASA (RSA, via
+  Tien 2013 max-ASA); residues with **RSA ≥ 50 %** are "totally solvent exposed"
+  once L is gone (mutate/camouflage for VHH).
+
+Driver `analysis/q7_w632_heavy_paratope.py`; results in `analysis/results/q7/`;
+write-up in CONCLUSIONS.md. (SASA kept inline; promote to a tool if reused.)

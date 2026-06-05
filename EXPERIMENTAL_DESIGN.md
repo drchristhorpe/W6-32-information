@@ -72,6 +72,8 @@ Take the sequence from the HLA-A*02:01 / PRAME Single Chain Trimer as the sequen
 
 6. Map the contact positions found by the tool onto the single chain trimer. Produce a list of the amino acid positions that are in the interface and a second list of the positions near or in the interface that move on binding. 
 
+7. Looking at the problem from the opposite angle, what are the contact patches on the W6/32 heavy chain variable region and what are the totally solvent exposed patches on the heavy chain variable region that were previously contacts for the light chain. 
+
 
 # Libraries to be used
 

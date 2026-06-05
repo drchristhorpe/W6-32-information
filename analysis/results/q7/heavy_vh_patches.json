@@ -1,0 +1,731 @@
+{
+  "complex": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/structures/pdb/hla_b_27_05__FRYNGLIHR__w632__1.pdb",
+  "vh_definition": "chain H residues <= 120",
+  "vh_sequence": "VQLKQSGPGLVQPSQSLSLTCTVSGFSLTSYGVHWVRQPPGKGLEWLGVIWSGGSTDYNAAFISRLSIRKDNSKSQVFFKMNSLQADDTAIYYCARTFTTSTSAWFAYWGQGTLVTVSAA",
+  "vh_span": [
+    1,
+    120
+  ],
+  "rsa_exposed_threshold": 50.0,
+  "antigen_contact_patch": [
+    {
+      "chain": "H",
+      "resseq": 18,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER18",
+      "min_distance": 4.325,
+      "n_contacts": 1,
+      "partners": [
+        "A:GLN226"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 19,
+      "icode": "",
+      "resname": "LEU",
+      "key": "H:LEU19",
+      "min_distance": 4.445,
+      "n_contacts": 1,
+      "partners": [
+        "A:GLN226"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 20,
+      "icode": "",
+      "resname": "THR",
+      "key": "H:THR20",
+      "min_distance": 3.756,
+      "n_contacts": 1,
+      "partners": [
+        "A:GLN226"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 51,
+      "icode": "",
+      "resname": "TRP",
+      "key": "H:TRP51",
+      "min_distance": 3.8,
+      "n_contacts": 2,
+      "partners": [
+        "B:ASP59",
+        "B:LYS6"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 52,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER52",
+      "min_distance": 3.724,
+      "n_contacts": 1,
+      "partners": [
+        "B:ASP59"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 53,
+      "icode": "",
+      "resname": "GLY",
+      "key": "H:GLY53",
+      "min_distance": 3.308,
+      "n_contacts": 3,
+      "partners": [
+        "A:GLU232",
+        "A:LYS243",
+        "A:THR233"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 54,
+      "icode": "",
+      "resname": "GLY",
+      "key": "H:GLY54",
+      "min_distance": 4.008,
+      "n_contacts": 2,
+      "partners": [
+        "A:GLU232",
+        "A:LEU230"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 55,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER55",
+      "min_distance": 3.485,
+      "n_contacts": 2,
+      "partners": [
+        "A:GLU232",
+        "B:LYS6"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 56,
+      "icode": "",
+      "resname": "THR",
+      "key": "H:THR56",
+      "min_distance": 3.715,
+      "n_contacts": 1,
+      "partners": [
+        "B:LYS6"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 57,
+      "icode": "",
+      "resname": "ASP",
+      "key": "H:ASP57",
+      "min_distance": 3.001,
+      "n_contacts": 2,
+      "partners": [
+        "B:LYS6",
+        "B:THR4"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 58,
+      "icode": "",
+      "resname": "TYR",
+      "key": "H:TYR58",
+      "min_distance": 4.412,
+      "n_contacts": 1,
+      "partners": [
+        "A:GLU229"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 67,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER67",
+      "min_distance": 2.989,
+      "n_contacts": 1,
+      "partners": [
+        "A:GLU229"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 68,
+      "icode": "",
+      "resname": "ILE",
+      "key": "H:ILE68",
+      "min_distance": 4.712,
+      "n_contacts": 1,
+      "partners": [
+        "A:GLU229"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 69,
+      "icode": "",
+      "resname": "ARG",
+      "key": "H:ARG69",
+      "min_distance": 2.765,
+      "n_contacts": 5,
+      "partners": [
+        "A:ASP227",
+        "A:GLN226",
+        "A:GLU229",
+        "A:THR225",
+        "A:THR228"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 71,
+      "icode": "",
+      "resname": "ASP",
+      "key": "H:ASP71",
+      "min_distance": 3.351,
+      "n_contacts": 2,
+      "partners": [
+        "A:ASP223",
+        "A:THR225"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 74,
+      "icode": "",
+      "resname": "LYS",
+      "key": "H:LYS74",
+      "min_distance": 3.743,
+      "n_contacts": 2,
+      "partners": [
+        "A:ASP223",
+        "A:GLU222"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 78,
+      "icode": "",
+      "resname": "PHE",
+      "key": "H:PHE78",
+      "min_distance": 3.561,
+      "n_contacts": 2,
+      "partners": [
+        "A:GLN226",
+        "A:THR225"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 80,
+      "icode": "",
+      "resname": "LYS",
+      "key": "H:LYS80",
+      "min_distance": 3.556,
+      "n_contacts": 1,
+      "partners": [
+        "A:ASP227"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 99,
+      "icode": "",
+      "resname": "THR",
+      "key": "H:THR99",
+      "min_distance": 2.934,
+      "n_contacts": 1,
+      "partners": [
+        "A:ASP122"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 100,
+      "icode": "",
+      "resname": "THR",
+      "key": "H:THR100",
+      "min_distance": 3.173,
+      "n_contacts": 3,
+      "partners": [
+        "A:ASP122",
+        "B:ASP59",
+        "B:LYS58"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 101,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER101",
+      "min_distance": 3.415,
+      "n_contacts": 6,
+      "partners": [
+        "A:ASP122",
+        "A:GLY120",
+        "A:LYS121",
+        "B:ASP59",
+        "B:LYS58",
+        "B:TRP60"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 102,
+      "icode": "",
+      "resname": "THR",
+      "key": "H:THR102",
+      "min_distance": 2.971,
+      "n_contacts": 4,
+      "partners": [
+        "A:GLY120",
+        "B:ARG3",
+        "B:ASP59",
+        "B:SER61"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 103,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER103",
+      "min_distance": 3.873,
+      "n_contacts": 3,
+      "partners": [
+        "A:LYS121",
+        "B:ARG3",
+        "B:ILE1"
+      ]
+    },
+    {
+      "chain": "H",
+      "resseq": 104,
+      "icode": "",
+      "resname": "ALA",
+      "key": "H:ALA104",
+      "min_distance": 3.945,
+      "n_contacts": 1,
+      "partners": [
+        "B:ARG3"
+      ]
+    }
+  ],
+  "antigen_contact_positions": [
+    18,
+    19,
+    20,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    67,
+    68,
+    69,
+    71,
+    74,
+    78,
+    80,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "former_vl_contacts": [
+    {
+      "chain": "H",
+      "resseq": 102,
+      "icode": "",
+      "resname": "THR",
+      "key": "H:THR102",
+      "min_distance": 4.535,
+      "n_contacts": 1,
+      "partners": [
+        "L:TRP98"
+      ],
+      "rsa_heavy_alone": 61.9
+    },
+    {
+      "chain": "H",
+      "resseq": 60,
+      "icode": "",
+      "resname": "ALA",
+      "key": "H:ALA60",
+      "min_distance": 4.582,
+      "n_contacts": 1,
+      "partners": [
+        "L:PRO97"
+      ],
+      "rsa_heavy_alone": 61.6
+    },
+    {
+      "chain": "H",
+      "resseq": 42,
+      "icode": "",
+      "resname": "LYS",
+      "key": "H:LYS42",
+      "min_distance": 4.022,
+      "n_contacts": 1,
+      "partners": [
+        "L:PHE88"
+      ],
+      "rsa_heavy_alone": 55.0
+    },
+    {
+      "chain": "H",
+      "resseq": 43,
+      "icode": "",
+      "resname": "GLY",
+      "key": "H:GLY43",
+      "min_distance": 3.789,
+      "n_contacts": 3,
+      "partners": [
+        "L:GLY101",
+        "L:GLY102",
+        "L:PHE88"
+      ],
+      "rsa_heavy_alone": 53.8
+    },
+    {
+      "chain": "H",
+      "resseq": 104,
+      "icode": "",
+      "resname": "ALA",
+      "key": "H:ALA104",
+      "min_distance": 2.905,
+      "n_contacts": 5,
+      "partners": [
+        "L:ASP92",
+        "L:GLN90",
+        "L:GLN91",
+        "L:TRP98",
+        "L:TYR37"
+      ],
+      "rsa_heavy_alone": 50.2
+    },
+    {
+      "chain": "H",
+      "resseq": 44,
+      "icode": "",
+      "resname": "LEU",
+      "key": "H:LEU44",
+      "min_distance": 3.487,
+      "n_contacts": 3,
+      "partners": [
+        "L:PHE100",
+        "L:PHE88",
+        "L:PRO45"
+      ],
+      "rsa_heavy_alone": 49.8
+    },
+    {
+      "chain": "H",
+      "resseq": 105,
+      "icode": "",
+      "resname": "TRP",
+      "key": "H:TRP105",
+      "min_distance": 3.319,
+      "n_contacts": 8,
+      "partners": [
+        "L:ALA35",
+        "L:ASP92",
+        "L:GLN90",
+        "L:LEU47",
+        "L:TYR37",
+        "L:TYR50",
+        "L:TYR51",
+        "L:TYR56"
+      ],
+      "rsa_heavy_alone": 49.6
+    },
+    {
+      "chain": "H",
+      "resseq": 111,
+      "icode": "",
+      "resname": "GLN",
+      "key": "H:GLN111",
+      "min_distance": 4.238,
+      "n_contacts": 1,
+      "partners": [
+        "L:SER44"
+      ],
+      "rsa_heavy_alone": 49.5
+    },
+    {
+      "chain": "H",
+      "resseq": 98,
+      "icode": "",
+      "resname": "PHE",
+      "key": "H:PHE98",
+      "min_distance": 3.627,
+      "n_contacts": 1,
+      "partners": [
+        "L:TYR56"
+      ],
+      "rsa_heavy_alone": 44.5
+    },
+    {
+      "chain": "H",
+      "resseq": 57,
+      "icode": "",
+      "resname": "ASP",
+      "key": "H:ASP57",
+      "min_distance": 3.716,
+      "n_contacts": 1,
+      "partners": [
+        "L:PRO96"
+      ],
+      "rsa_heavy_alone": 39.7
+    },
+    {
+      "chain": "H",
+      "resseq": 109,
+      "icode": "",
+      "resname": "TRP",
+      "key": "H:TRP109",
+      "min_distance": 3.286,
+      "n_contacts": 6,
+      "partners": [
+        "L:LEU47",
+        "L:LYS46",
+        "L:PHE100",
+        "L:PRO45",
+        "L:SER44",
+        "L:TYR37"
+      ],
+      "rsa_heavy_alone": 37.4
+    },
+    {
+      "chain": "H",
+      "resseq": 107,
+      "icode": "",
+      "resname": "ALA",
+      "key": "H:ALA107",
+      "min_distance": 3.327,
+      "n_contacts": 3,
+      "partners": [
+        "L:LEU47",
+        "L:LYS46",
+        "L:TYR56"
+      ],
+      "rsa_heavy_alone": 36.5
+    },
+    {
+      "chain": "H",
+      "resseq": 46,
+      "icode": "",
+      "resname": "TRP",
+      "key": "H:TRP46",
+      "min_distance": 3.38,
+      "n_contacts": 4,
+      "partners": [
+        "L:PHE100",
+        "L:PRO96",
+        "L:PRO97",
+        "L:TRP98"
+      ],
+      "rsa_heavy_alone": 30.1
+    },
+    {
+      "chain": "H",
+      "resseq": 108,
+      "icode": "",
+      "resname": "TYR",
+      "key": "H:TYR108",
+      "min_distance": 3.761,
+      "n_contacts": 2,
+      "partners": [
+        "L:LYS46",
+        "L:TYR56"
+      ],
+      "rsa_heavy_alone": 26.9
+    },
+    {
+      "chain": "H",
+      "resseq": 45,
+      "icode": "",
+      "resname": "GLU",
+      "key": "H:GLU45",
+      "min_distance": 4.323,
+      "n_contacts": 1,
+      "partners": [
+        "L:PHE100"
+      ],
+      "rsa_heavy_alone": 24.8
+    },
+    {
+      "chain": "H",
+      "resseq": 103,
+      "icode": "",
+      "resname": "SER",
+      "key": "H:SER103",
+      "min_distance": 4.063,
+      "n_contacts": 1,
+      "partners": [
+        "L:TYR51"
+      ],
+      "rsa_heavy_alone": 24.6
+    },
+    {
+      "chain": "H",
+      "resseq": 38,
+      "icode": "",
+      "resname": "GLN",
+      "key": "H:GLN38",
+      "min_distance": 2.775,
+      "n_contacts": 2,
+      "partners": [
+        "L:GLN39",
+        "L:PHE88"
+      ],
+      "rsa_heavy_alone": 24.3
+    },
+    {
+      "chain": "H",
+      "resseq": 59,
+      "icode": "",
+      "resname": "ASN",
+      "key": "H:ASN59",
+      "min_distance": 4.612,
+      "n_contacts": 1,
+      "partners": [
+        "L:PRO97"
+      ],
+      "rsa_heavy_alone": 18.1
+    },
+    {
+      "chain": "H",
+      "resseq": 93,
+      "icode": "",
+      "resname": "TYR",
+      "key": "H:TYR93",
+      "min_distance": 3.209,
+      "n_contacts": 4,
+      "partners": [
+        "L:GLN39",
+        "L:GLN43",
+        "L:PRO45",
+        "L:SER44"
+      ],
+      "rsa_heavy_alone": 17.6
+    },
+    {
+      "chain": "H",
+      "resseq": 51,
+      "icode": "",
+      "resname": "TRP",
+      "key": "H:TRP51",
+      "min_distance": 4.428,
+      "n_contacts": 1,
+      "partners": [
+        "L:TRP98"
+      ],
+      "rsa_heavy_alone": 16.0
+    },
+    {
+      "chain": "H",
+      "resseq": 106,
+      "icode": "",
+      "resname": "PHE",
+      "key": "H:PHE106",
+      "min_distance": 2.797,
+      "n_contacts": 4,
+      "partners": [
+        "L:GLN90",
+        "L:LEU47",
+        "L:PHE100",
+        "L:TYR37"
+      ],
+      "rsa_heavy_alone": 16.0
+    },
+    {
+      "chain": "H",
+      "resseq": 112,
+      "icode": "",
+      "resname": "GLY",
+      "key": "H:GLY112",
+      "min_distance": 4.85,
+      "n_contacts": 1,
+      "partners": [
+        "L:SER44"
+      ],
+      "rsa_heavy_alone": 15.5
+    },
+    {
+      "chain": "H",
+      "resseq": 110,
+      "icode": "",
+      "resname": "GLY",
+      "key": "H:GLY110",
+      "min_distance": 2.796,
+      "n_contacts": 1,
+      "partners": [
+        "L:SER44"
+      ],
+      "rsa_heavy_alone": 13.5
+    },
+    {
+      "chain": "H",
+      "resseq": 34,
+      "icode": "",
+      "resname": "HIS",
+      "key": "H:HIS34",
+      "min_distance": 3.467,
+      "n_contacts": 1,
+      "partners": [
+        "L:TRP98"
+      ],
+      "rsa_heavy_alone": 4.2
+    },
+    {
+      "chain": "H",
+      "resseq": 36,
+      "icode": "",
+      "resname": "VAL",
+      "key": "H:VAL36",
+      "min_distance": 3.987,
+      "n_contacts": 1,
+      "partners": [
+        "L:PHE100"
+      ],
+      "rsa_heavy_alone": 4.1
+    },
+    {
+      "chain": "H",
+      "resseq": 49,
+      "icode": "",
+      "resname": "VAL",
+      "key": "H:VAL49",
+      "min_distance": 4.899,
+      "n_contacts": 1,
+      "partners": [
+        "L:TRP98"
+      ],
+      "rsa_heavy_alone": 0.7
+    }
+  ],
+  "former_vl_exposed_positions": [
+    102,
+    60,
+    42,
+    43,
+    104
+  ]
+}
