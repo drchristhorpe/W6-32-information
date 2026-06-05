@@ -69,6 +69,14 @@ Tools (see each folder's README for the full contract):
   canonical frame; fit residues are matched by **local sequence alignment**, so it
   aligns both separate-chain experimental complexes and single-chain SCT
   predictions. Auto-detects `.pdb`/`.cif`.
+- `tools/interface_contacts/` (skill: `interface-contacts`) — heavy-atom contact
+  footprint between epitope/paratope chain groups (BioPython `NeighborSearch`,
+  configurable cutoff, default 5.0 Å). Distance-based only.
+
+Orchestration drivers live in `analysis/` (e.g. `align_all_predictions.py`), and
+import the tools as libraries. Experiment outputs: design-question answers go in
+[CONCLUSIONS.md](CONCLUSIONS.md); interface footprints in `interface_description/`;
+aligned predictions in `sct_predictions/aligned/` (gitignored).
 
 Workflow discipline (from [EXPERIMENTAL_DESIGN.md](EXPERIMENTAL_DESIGN.md)): plan
 in [PLAN.md](PLAN.md) → execute → update this file + [CHANGELOG.md](CHANGELOG.md)

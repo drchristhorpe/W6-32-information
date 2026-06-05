@@ -38,5 +38,32 @@ entry: what was done, why, and what it produced. Paired with [PLAN.md](PLAN.md).
     near the canonical frame, as expected); Boltz A\*02:01/PRAME SCT single chain
     → 180 residues, 0.362 Å. Standalone isolated install reproduces the result.
 
-Next: align all SCT predictions into `sct_predictions/aligned/`, then build
-Tool 2 (`interface_contacts`).
+### Aligned all SCT predictions
+
+- `analysis/align_all_predictions.py` (driver; imports the tool as a library)
+  aligned all **54** predictions (14 AlphaFold3, 14 Boltz, 13 ESMFold2, 13
+  ESMFold2-fast) onto the canonical frame → `sct_predictions/aligned/<predictor>/<sct_id>/`
+  (gitignored, with the data).
+- Every prediction matched the full 180 α1/α2 residues; fit RMSD 0.36–0.71 Å.
+  A\*02:01 SCTs fit tightest (same allele as the 1HHK reference); B\*27 / A\*11 /
+  A\*30 slightly higher, consistent with cross-allele superposition. The
+  A\*02:01/PRAME Boltz SCT (focus of 4b) is the single tightest at 0.362 Å.
+
+### Tool 2 (`interface-contacts`) + W6/32 footprint
+
+- **Built `tools/interface_contacts/`** (+ skill `interface-contacts`) — heavy-atom
+  contacts between an epitope and a paratope chain group via BioPython
+  `NeighborSearch`; reports per-side residue footprints + atom pairs. Distance
+  only (no H-bond/π typing). Cutoff is a configurable module constant
+  `DEFAULT_CUTOFF = 5.0` Å (widened from 4.0 for the design phase, per request).
+- **Generated W6/32 footprints** for both crystallographic copies of the complex
+  → `interface_description/` (tracked). Heavy chain = paratope, HLA heavy + β2m =
+  epitope; light chain excluded (SCT steric clash).
+- **Validation:** the footprint is the canonical conformational W6/32 epitope —
+  HLA α3 domain (~222–243) + β2m (~1–6, 58–61), with a Glu229–Arg69 salt bridge
+  (~2.8 Å). Reproducible across both copies (22 vs 23 epitope residues). Recorded
+  in [CONCLUSIONS.md](CONCLUSIONS.md) (Aim 1).
+- Added **CONCLUSIONS.md** as the reader-facing answers document for the design
+  questions (separate from this lab notebook).
+
+Next: build Tool 3 (`compare_structures`), then answer 4a/4b/4c.

@@ -1,0 +1,7952 @@
+{
+  "input": "structures/pdb/hla_b_27_05__FRYNGLIHR__w632__2.pdb",
+  "cutoff": 5.0,
+  "epitope_chains": [
+    "D",
+    "E"
+  ],
+  "paratope_chains": [
+    "G"
+  ],
+  "n_contact_atom_pairs": 385,
+  "epitope_footprint": [
+    {
+      "chain": "D",
+      "resseq": 120,
+      "icode": "",
+      "resname": "GLY",
+      "key": "D:GLY120",
+      "min_distance": 4.182,
+      "n_contacts": 2,
+      "partners": [
+        "G:SER101",
+        "G:THR102"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 121,
+      "icode": "",
+      "resname": "LYS",
+      "key": "D:LYS121",
+      "min_distance": 3.72,
+      "n_contacts": 2,
+      "partners": [
+        "G:SER101",
+        "G:SER103"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 122,
+      "icode": "",
+      "resname": "ASP",
+      "key": "D:ASP122",
+      "min_distance": 3.355,
+      "n_contacts": 3,
+      "partners": [
+        "G:SER101",
+        "G:THR100",
+        "G:THR99"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 222,
+      "icode": "",
+      "resname": "GLU",
+      "key": "D:GLU222",
+      "min_distance": 4.834,
+      "n_contacts": 1,
+      "partners": [
+        "G:LYS74"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 223,
+      "icode": "",
+      "resname": "ASP",
+      "key": "D:ASP223",
+      "min_distance": 2.923,
+      "n_contacts": 2,
+      "partners": [
+        "G:ASP71",
+        "G:LYS74"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 225,
+      "icode": "",
+      "resname": "THR",
+      "key": "D:THR225",
+      "min_distance": 3.452,
+      "n_contacts": 4,
+      "partners": [
+        "G:ARG69",
+        "G:ASP71",
+        "G:LYS70",
+        "G:PHE78"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 226,
+      "icode": "",
+      "resname": "GLN",
+      "key": "D:GLN226",
+      "min_distance": 2.769,
+      "n_contacts": 5,
+      "partners": [
+        "G:ARG69",
+        "G:LYS80",
+        "G:PHE78",
+        "G:SER18",
+        "G:THR20"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 227,
+      "icode": "",
+      "resname": "ASP",
+      "key": "D:ASP227",
+      "min_distance": 2.769,
+      "n_contacts": 2,
+      "partners": [
+        "G:ARG69",
+        "G:LYS80"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 228,
+      "icode": "",
+      "resname": "THR",
+      "key": "D:THR228",
+      "min_distance": 3.353,
+      "n_contacts": 1,
+      "partners": [
+        "G:ARG69"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 229,
+      "icode": "",
+      "resname": "GLU",
+      "key": "D:GLU229",
+      "min_distance": 3.307,
+      "n_contacts": 4,
+      "partners": [
+        "G:ARG69",
+        "G:ILE68",
+        "G:SER67",
+        "G:TYR58"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 230,
+      "icode": "",
+      "resname": "LEU",
+      "key": "D:LEU230",
+      "min_distance": 3.836,
+      "n_contacts": 1,
+      "partners": [
+        "G:GLY54"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 231,
+      "icode": "",
+      "resname": "VAL",
+      "key": "D:VAL231",
+      "min_distance": 4.884,
+      "n_contacts": 1,
+      "partners": [
+        "G:GLY53"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 232,
+      "icode": "",
+      "resname": "GLU",
+      "key": "D:GLU232",
+      "min_distance": 3.407,
+      "n_contacts": 3,
+      "partners": [
+        "G:GLY53",
+        "G:GLY54",
+        "G:SER55"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 233,
+      "icode": "",
+      "resname": "THR",
+      "key": "D:THR233",
+      "min_distance": 4.645,
+      "n_contacts": 1,
+      "partners": [
+        "G:GLY53"
+      ]
+    },
+    {
+      "chain": "D",
+      "resseq": 243,
+      "icode": "",
+      "resname": "LYS",
+      "key": "D:LYS243",
+      "min_distance": 3.91,
+      "n_contacts": 1,
+      "partners": [
+        "G:GLY53"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 1,
+      "icode": "",
+      "resname": "ILE",
+      "key": "E:ILE1",
+      "min_distance": 4.278,
+      "n_contacts": 1,
+      "partners": [
+        "G:SER103"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 3,
+      "icode": "",
+      "resname": "ARG",
+      "key": "E:ARG3",
+      "min_distance": 3.091,
+      "n_contacts": 3,
+      "partners": [
+        "G:ALA104",
+        "G:SER103",
+        "G:THR102"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 4,
+      "icode": "",
+      "resname": "THR",
+      "key": "E:THR4",
+      "min_distance": 4.156,
+      "n_contacts": 1,
+      "partners": [
+        "G:ASP57"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 6,
+      "icode": "",
+      "resname": "LYS",
+      "key": "E:LYS6",
+      "min_distance": 3.273,
+      "n_contacts": 4,
+      "partners": [
+        "G:ASP57",
+        "G:SER55",
+        "G:THR56",
+        "G:TRP51"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 58,
+      "icode": "",
+      "resname": "LYS",
+      "key": "E:LYS58",
+      "min_distance": 4.08,
+      "n_contacts": 2,
+      "partners": [
+        "G:SER101",
+        "G:THR100"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 59,
+      "icode": "",
+      "resname": "ASP",
+      "key": "E:ASP59",
+      "min_distance": 3.306,
+      "n_contacts": 5,
+      "partners": [
+        "G:SER101",
+        "G:SER52",
+        "G:THR100",
+        "G:THR102",
+        "G:TRP51"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 60,
+      "icode": "",
+      "resname": "TRP",
+      "key": "E:TRP60",
+      "min_distance": 3.779,
+      "n_contacts": 1,
+      "partners": [
+        "G:SER101"
+      ]
+    },
+    {
+      "chain": "E",
+      "resseq": 61,
+      "icode": "",
+      "resname": "SER",
+      "key": "E:SER61",
+      "min_distance": 4.36,
+      "n_contacts": 1,
+      "partners": [
+        "G:THR102"
+      ]
+    }
+  ],
+  "paratope_footprint": [
+    {
+      "chain": "G",
+      "resseq": 18,
+      "icode": "",
+      "resname": "SER",
+      "key": "G:SER18",
+      "min_distance": 3.89,
+      "n_contacts": 1,
+      "partners": [
+        "D:GLN226"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 20,
+      "icode": "",
+      "resname": "THR",
+      "key": "G:THR20",
+      "min_distance": 4.834,
+      "n_contacts": 1,
+      "partners": [
+        "D:GLN226"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 51,
+      "icode": "",
+      "resname": "TRP",
+      "key": "G:TRP51",
+      "min_distance": 3.835,
+      "n_contacts": 2,
+      "partners": [
+        "E:ASP59",
+        "E:LYS6"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 52,
+      "icode": "",
+      "resname": "SER",
+      "key": "G:SER52",
+      "min_distance": 4.485,
+      "n_contacts": 1,
+      "partners": [
+        "E:ASP59"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 53,
+      "icode": "",
+      "resname": "GLY",
+      "key": "G:GLY53",
+      "min_distance": 3.407,
+      "n_contacts": 4,
+      "partners": [
+        "D:GLU232",
+        "D:LYS243",
+        "D:THR233",
+        "D:VAL231"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 54,
+      "icode": "",
+      "resname": "GLY",
+      "key": "G:GLY54",
+      "min_distance": 3.836,
+      "n_contacts": 2,
+      "partners": [
+        "D:GLU232",
+        "D:LEU230"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 55,
+      "icode": "",
+      "resname": "SER",
+      "key": "G:SER55",
+      "min_distance": 3.535,
+      "n_contacts": 2,
+      "partners": [
+        "D:GLU232",
+        "E:LYS6"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 56,
+      "icode": "",
+      "resname": "THR",
+      "key": "G:THR56",
+      "min_distance": 3.645,
+      "n_contacts": 1,
+      "partners": [
+        "E:LYS6"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 57,
+      "icode": "",
+      "resname": "ASP",
+      "key": "G:ASP57",
+      "min_distance": 3.273,
+      "n_contacts": 2,
+      "partners": [
+        "E:LYS6",
+        "E:THR4"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 58,
+      "icode": "",
+      "resname": "TYR",
+      "key": "G:TYR58",
+      "min_distance": 3.412,
+      "n_contacts": 1,
+      "partners": [
+        "D:GLU229"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 67,
+      "icode": "",
+      "resname": "SER",
+      "key": "G:SER67",
+      "min_distance": 4.278,
+      "n_contacts": 1,
+      "partners": [
+        "D:GLU229"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 68,
+      "icode": "",
+      "resname": "ILE",
+      "key": "G:ILE68",
+      "min_distance": 4.899,
+      "n_contacts": 1,
+      "partners": [
+        "D:GLU229"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 69,
+      "icode": "",
+      "resname": "ARG",
+      "key": "G:ARG69",
+      "min_distance": 2.769,
+      "n_contacts": 5,
+      "partners": [
+        "D:ASP227",
+        "D:GLN226",
+        "D:GLU229",
+        "D:THR225",
+        "D:THR228"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 70,
+      "icode": "",
+      "resname": "LYS",
+      "key": "G:LYS70",
+      "min_distance": 4.328,
+      "n_contacts": 1,
+      "partners": [
+        "D:THR225"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 71,
+      "icode": "",
+      "resname": "ASP",
+      "key": "G:ASP71",
+      "min_distance": 2.923,
+      "n_contacts": 2,
+      "partners": [
+        "D:ASP223",
+        "D:THR225"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 74,
+      "icode": "",
+      "resname": "LYS",
+      "key": "G:LYS74",
+      "min_distance": 3.047,
+      "n_contacts": 2,
+      "partners": [
+        "D:ASP223",
+        "D:GLU222"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 78,
+      "icode": "",
+      "resname": "PHE",
+      "key": "G:PHE78",
+      "min_distance": 3.475,
+      "n_contacts": 2,
+      "partners": [
+        "D:GLN226",
+        "D:THR225"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 80,
+      "icode": "",
+      "resname": "LYS",
+      "key": "G:LYS80",
+      "min_distance": 2.769,
+      "n_contacts": 2,
+      "partners": [
+        "D:ASP227",
+        "D:GLN226"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 99,
+      "icode": "",
+      "resname": "THR",
+      "key": "G:THR99",
+      "min_distance": 3.355,
+      "n_contacts": 1,
+      "partners": [
+        "D:ASP122"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 100,
+      "icode": "",
+      "resname": "THR",
+      "key": "G:THR100",
+      "min_distance": 3.438,
+      "n_contacts": 3,
+      "partners": [
+        "D:ASP122",
+        "E:ASP59",
+        "E:LYS58"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 101,
+      "icode": "",
+      "resname": "SER",
+      "key": "G:SER101",
+      "min_distance": 3.486,
+      "n_contacts": 6,
+      "partners": [
+        "D:ASP122",
+        "D:GLY120",
+        "D:LYS121",
+        "E:ASP59",
+        "E:LYS58",
+        "E:TRP60"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 102,
+      "icode": "",
+      "resname": "THR",
+      "key": "G:THR102",
+      "min_distance": 3.091,
+      "n_contacts": 4,
+      "partners": [
+        "D:GLY120",
+        "E:ARG3",
+        "E:ASP59",
+        "E:SER61"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 103,
+      "icode": "",
+      "resname": "SER",
+      "key": "G:SER103",
+      "min_distance": 3.72,
+      "n_contacts": 3,
+      "partners": [
+        "D:LYS121",
+        "E:ARG3",
+        "E:ILE1"
+      ]
+    },
+    {
+      "chain": "G",
+      "resseq": 104,
+      "icode": "",
+      "resname": "ALA",
+      "key": "G:ALA104",
+      "min_distance": 3.686,
+      "n_contacts": 1,
+      "partners": [
+        "E:ARG3"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "NZ"
+      },
+      "distance": 2.769
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 2.769
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 2.923
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "NZ"
+      },
+      "distance": 3.047
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "O"
+      },
+      "distance": 3.091
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "NZ"
+      },
+      "distance": 3.228
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD2"
+      },
+      "distance": 3.273
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "N"
+      },
+      "distance": 3.306
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 3.307
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 3.331
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 3.353
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CB"
+      },
+      "distance": 3.355
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "CA"
+      },
+      "distance": 3.407
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 58,
+        "icode": "",
+        "resname": "TYR",
+        "key": "G:TYR58",
+        "atom": "OH"
+      },
+      "distance": 3.412
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 3.427
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 3.438
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD1"
+      },
+      "distance": 3.441
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 3.449
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 3.452
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD2"
+      },
+      "distance": 3.474
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 3.475
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 3.478
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 3.486
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "O"
+      },
+      "distance": 3.498
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 3.505
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD1"
+      },
+      "distance": 3.506
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD1"
+      },
+      "distance": 3.506
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "OG1"
+      },
+      "distance": 3.533
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "OG"
+      },
+      "distance": 3.535
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "NZ"
+      },
+      "distance": 3.535
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CE"
+      },
+      "distance": 3.538
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 3.564
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "OG1"
+      },
+      "distance": 3.566
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 3.597
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 3.613
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "OG"
+      },
+      "distance": 3.616
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 3.617
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "OG"
+      },
+      "distance": 3.637
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 56,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR56",
+        "atom": "O"
+      },
+      "distance": 3.645
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 3.649
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 3.661
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CG"
+      },
+      "distance": 3.674
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CG"
+      },
+      "distance": 3.678
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 104,
+        "icode": "",
+        "resname": "ALA",
+        "key": "G:ALA104",
+        "atom": "CB"
+      },
+      "distance": 3.686
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CG2"
+      },
+      "distance": 3.695
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 3.699
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CZ"
+      },
+      "distance": 3.7
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "CG"
+      },
+      "distance": 3.704
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 3.705
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "C"
+      },
+      "distance": 3.707
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 104,
+        "icode": "",
+        "resname": "ALA",
+        "key": "G:ALA104",
+        "atom": "N"
+      },
+      "distance": 3.712
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "OG"
+      },
+      "distance": 3.72
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 3.722
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 3.724
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 3.725
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 3.73
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 3.732
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "O"
+      },
+      "distance": 3.743
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CB"
+      },
+      "distance": 3.747
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 3.751
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 3.758
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "C"
+      },
+      "distance": 3.761
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE1"
+      },
+      "distance": 3.765
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CE"
+      },
+      "distance": 3.774
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 60,
+        "icode": "",
+        "resname": "TRP",
+        "key": "E:TRP60",
+        "atom": "CD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 3.779
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CB"
+      },
+      "distance": 3.784
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "CA"
+      },
+      "distance": 3.801
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 3.83
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 3.834
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "NE1"
+      },
+      "distance": 3.835
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 230,
+        "icode": "",
+        "resname": "LEU",
+        "key": "D:LEU230",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "O"
+      },
+      "distance": 3.836
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 3.852
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 3.857
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 3.867
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "NZ"
+      },
+      "distance": 3.872
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 18,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER18",
+        "atom": "CB"
+      },
+      "distance": 3.89
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "NZ"
+      },
+      "distance": 3.909
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 243,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS243",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 3.91
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD1"
+      },
+      "distance": 3.91
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 3.925
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 3.931
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 3.938
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 3.956
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 3.956
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CG"
+      },
+      "distance": 3.959
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "OG1"
+      },
+      "distance": 3.963
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CB"
+      },
+      "distance": 3.979
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CG2"
+      },
+      "distance": 3.98
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CB"
+      },
+      "distance": 3.985
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD2"
+      },
+      "distance": 3.986
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 3.987
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 3.998
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD1"
+      },
+      "distance": 4.003
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "CA"
+      },
+      "distance": 4.007
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CG"
+      },
+      "distance": 4.009
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "CG"
+      },
+      "distance": 4.013
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CD1"
+      },
+      "distance": 4.026
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "N"
+      },
+      "distance": 4.035
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.039
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CE"
+      },
+      "distance": 4.039
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "C"
+      },
+      "distance": 4.051
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.055
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "OG1"
+      },
+      "distance": 4.057
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "C"
+      },
+      "distance": 4.063
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "C"
+      },
+      "distance": 4.066
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.068
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.069
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CB"
+      },
+      "distance": 4.072
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.079
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "CG2"
+      },
+      "distance": 4.08
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 4.103
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CG"
+      },
+      "distance": 4.116
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.127
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "C"
+      },
+      "distance": 4.127
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "O"
+      },
+      "distance": 4.132
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CG2"
+      },
+      "distance": 4.146
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.148
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CZ"
+      },
+      "distance": 4.149
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 4,
+        "icode": "",
+        "resname": "THR",
+        "key": "E:THR4",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD1"
+      },
+      "distance": 4.156
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.176
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "N"
+      },
+      "distance": 4.181
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 4.182
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 120,
+        "icode": "",
+        "resname": "GLY",
+        "key": "D:GLY120",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.182
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 120,
+        "icode": "",
+        "resname": "GLY",
+        "key": "D:GLY120",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "OG1"
+      },
+      "distance": 4.184
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD1"
+      },
+      "distance": 4.188
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 56,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR56",
+        "atom": "O"
+      },
+      "distance": 4.195
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CB"
+      },
+      "distance": 4.196
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "CE"
+      },
+      "distance": 4.202
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.204
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 4.207
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.21
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "C"
+      },
+      "distance": 4.219
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.223
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.226
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CB"
+      },
+      "distance": 4.229
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "CG"
+      },
+      "distance": 4.242
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.244
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.246
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "OG1"
+      },
+      "distance": 4.248
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CA"
+      },
+      "distance": 4.248
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "C"
+      },
+      "distance": 4.251
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.257
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "N"
+      },
+      "distance": 4.257
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "C"
+      },
+      "distance": 4.268
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CB"
+      },
+      "distance": 4.269
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 1,
+        "icode": "",
+        "resname": "ILE",
+        "key": "E:ILE1",
+        "atom": "CD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "OG"
+      },
+      "distance": 4.278
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 67,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER67",
+        "atom": "OG"
+      },
+      "distance": 4.278
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.286
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 18,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER18",
+        "atom": "OG"
+      },
+      "distance": 4.288
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 60,
+        "icode": "",
+        "resname": "TRP",
+        "key": "E:TRP60",
+        "atom": "CD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 4.293
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.3
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CB"
+      },
+      "distance": 4.307
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.31
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.322
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "C"
+      },
+      "distance": 4.323
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "N"
+      },
+      "distance": 4.323
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 70,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS70",
+        "atom": "O"
+      },
+      "distance": 4.328
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.335
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "OG1"
+      },
+      "distance": 4.337
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.345
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "CB"
+      },
+      "distance": 4.345
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE1"
+      },
+      "distance": 4.346
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 104,
+        "icode": "",
+        "resname": "ALA",
+        "key": "G:ALA104",
+        "atom": "CA"
+      },
+      "distance": 4.346
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CB"
+      },
+      "distance": 4.348
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.36
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 61,
+        "icode": "",
+        "resname": "SER",
+        "key": "E:SER61",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 4.36
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.362
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "C"
+      },
+      "distance": 4.367
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "CA"
+      },
+      "distance": 4.372
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CB"
+      },
+      "distance": 4.373
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CB"
+      },
+      "distance": 4.374
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 4.381
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CA"
+      },
+      "distance": 4.382
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 4.384
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.385
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "OG"
+      },
+      "distance": 4.386
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CZ"
+      },
+      "distance": 4.389
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD1"
+      },
+      "distance": 4.389
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 120,
+        "icode": "",
+        "resname": "GLY",
+        "key": "D:GLY120",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "OG"
+      },
+      "distance": 4.391
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 4.395
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.399
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CE3"
+      },
+      "distance": 4.4
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "C"
+      },
+      "distance": 4.405
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.406
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.407
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CG"
+      },
+      "distance": 4.427
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CB"
+      },
+      "distance": 4.441
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.444
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CB"
+      },
+      "distance": 4.444
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "NZ"
+      },
+      "distance": 4.451
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "CG2"
+      },
+      "distance": 4.452
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 4.454
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "N"
+      },
+      "distance": 4.46
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.462
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.464
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.464
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.468
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.468
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 4.469
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "OG"
+      },
+      "distance": 4.469
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 4.47
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CG"
+      },
+      "distance": 4.471
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.472
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CB"
+      },
+      "distance": 4.474
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "O"
+      },
+      "distance": 4.475
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "OG"
+      },
+      "distance": 4.484
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 52,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER52",
+        "atom": "OG"
+      },
+      "distance": 4.485
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.487
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.49
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CG"
+      },
+      "distance": 4.493
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "N"
+      },
+      "distance": 4.497
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.505
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.508
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CE"
+      },
+      "distance": 4.509
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.51
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.514
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "CG2"
+      },
+      "distance": 4.526
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "C"
+      },
+      "distance": 4.528
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 4.529
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "C"
+      },
+      "distance": 4.532
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "C"
+      },
+      "distance": 4.534
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.534
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CD"
+      },
+      "distance": 4.543
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.545
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.552
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 56,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR56",
+        "atom": "O"
+      },
+      "distance": 4.56
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 58,
+        "icode": "",
+        "resname": "TYR",
+        "key": "G:TYR58",
+        "atom": "CZ"
+      },
+      "distance": 4.56
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.562
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CE2"
+      },
+      "distance": 4.563
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "N"
+      },
+      "distance": 4.567
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "OG"
+      },
+      "distance": 4.568
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CD"
+      },
+      "distance": 4.574
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "OG"
+      },
+      "distance": 4.575
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 4.576
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 60,
+        "icode": "",
+        "resname": "TRP",
+        "key": "E:TRP60",
+        "atom": "NE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.576
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "OG1"
+      },
+      "distance": 4.579
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD2"
+      },
+      "distance": 4.585
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 4.592
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CB"
+      },
+      "distance": 4.602
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CG"
+      },
+      "distance": 4.603
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CB"
+      },
+      "distance": 4.605
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CG"
+      },
+      "distance": 4.609
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 4.611
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.612
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 56,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR56",
+        "atom": "C"
+      },
+      "distance": 4.614
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.615
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 58,
+        "icode": "",
+        "resname": "TYR",
+        "key": "G:TYR58",
+        "atom": "OH"
+      },
+      "distance": 4.619
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CG"
+      },
+      "distance": 4.627
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "NE1"
+      },
+      "distance": 4.63
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 233,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR233",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 4.645
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.645
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 4.646
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.648
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "N"
+      },
+      "distance": 4.652
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.658
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.659
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CG"
+      },
+      "distance": 4.661
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 4.661
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CB"
+      },
+      "distance": 4.668
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "CD"
+      },
+      "distance": 4.679
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.679
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.681
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 70,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS70",
+        "atom": "C"
+      },
+      "distance": 4.681
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "CA"
+      },
+      "distance": 4.681
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 230,
+        "icode": "",
+        "resname": "LEU",
+        "key": "D:LEU230",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "C"
+      },
+      "distance": 4.682
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "N"
+      },
+      "distance": 4.684
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.689
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.692
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "N"
+      },
+      "distance": 4.698
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.702
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "NZ"
+      },
+      "distance": 4.703
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CG2"
+      },
+      "distance": 4.704
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 4.707
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 4.707
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.708
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CB"
+      },
+      "distance": 4.709
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD1"
+      },
+      "distance": 4.716
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CB"
+      },
+      "distance": 4.719
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.722
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "OG"
+      },
+      "distance": 4.728
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 4.73
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "N"
+      },
+      "distance": 4.731
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CG"
+      },
+      "distance": 4.738
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.741
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.744
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CB"
+      },
+      "distance": 4.751
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.753
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 120,
+        "icode": "",
+        "resname": "GLY",
+        "key": "D:GLY120",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "N"
+      },
+      "distance": 4.754
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CD2"
+      },
+      "distance": 4.755
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD2"
+      },
+      "distance": 4.761
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "O"
+      },
+      "distance": 4.763
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "C"
+      },
+      "distance": 4.771
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "OG1"
+      },
+      "distance": 4.775
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CB"
+      },
+      "distance": 4.776
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "CG"
+      },
+      "distance": 4.777
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "NE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD1"
+      },
+      "distance": 4.781
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "CA"
+      },
+      "distance": 4.783
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 1,
+        "icode": "",
+        "resname": "ILE",
+        "key": "E:ILE1",
+        "atom": "CD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "CA"
+      },
+      "distance": 4.783
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CB"
+      },
+      "distance": 4.786
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 4,
+        "icode": "",
+        "resname": "THR",
+        "key": "E:THR4",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "CG"
+      },
+      "distance": 4.787
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD1"
+      },
+      "distance": 4.791
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "C"
+      },
+      "distance": 4.791
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CZ"
+      },
+      "distance": 4.799
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "NE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE1"
+      },
+      "distance": 4.8
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 228,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR228",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.802
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 52,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER52",
+        "atom": "OG"
+      },
+      "distance": 4.805
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 60,
+        "icode": "",
+        "resname": "TRP",
+        "key": "E:TRP60",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.81
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "NZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CG"
+      },
+      "distance": 4.814
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CG"
+      },
+      "distance": 4.815
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.819
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 58,
+        "icode": "",
+        "resname": "TYR",
+        "key": "G:TYR58",
+        "atom": "CE2"
+      },
+      "distance": 4.819
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.82
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CA"
+      },
+      "distance": 4.82
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "OG"
+      },
+      "distance": 4.82
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "OD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "CD"
+      },
+      "distance": 4.823
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "O"
+      },
+      "distance": 4.825
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 60,
+        "icode": "",
+        "resname": "TRP",
+        "key": "E:TRP60",
+        "atom": "CD1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "N"
+      },
+      "distance": 4.828
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 222,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU222",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "NZ"
+      },
+      "distance": 4.834
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "N"
+      },
+      "distance": 4.834
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 20,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR20",
+        "atom": "OG1"
+      },
+      "distance": 4.834
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "OG1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE1"
+      },
+      "distance": 4.838
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 4,
+        "icode": "",
+        "resname": "THR",
+        "key": "E:THR4",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD2"
+      },
+      "distance": 4.844
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CA"
+      },
+      "distance": 4.845
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CB"
+      },
+      "distance": 4.846
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.847
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "OG"
+      },
+      "distance": 4.849
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "N"
+      },
+      "distance": 4.85
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE1"
+      },
+      "distance": 4.85
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "C"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 4.853
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 70,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS70",
+        "atom": "O"
+      },
+      "distance": 4.854
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 58,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS58",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 4.854
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CD1"
+      },
+      "distance": 4.855
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NE"
+      },
+      "distance": 4.858
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CA"
+      },
+      "distance": 4.858
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "CG2"
+      },
+      "distance": 4.86
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CA"
+      },
+      "distance": 4.861
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 80,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS80",
+        "atom": "CD"
+      },
+      "distance": 4.868
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 4.877
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "N"
+      },
+      "distance": 4.88
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 56,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR56",
+        "atom": "N"
+      },
+      "distance": 4.88
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CD1"
+      },
+      "distance": 4.88
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "N"
+      },
+      "distance": 4.883
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 231,
+        "icode": "",
+        "resname": "VAL",
+        "key": "D:VAL231",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 53,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY53",
+        "atom": "O"
+      },
+      "distance": 4.884
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH2"
+      },
+      "distance": 4.885
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 227,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP227",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.886
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "O"
+      },
+      "distance": 4.891
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CE2"
+      },
+      "distance": 4.894
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 99,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR99",
+        "atom": "C"
+      },
+      "distance": 4.895
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 223,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP223",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 74,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS74",
+        "atom": "NZ"
+      },
+      "distance": 4.897
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 68,
+        "icode": "",
+        "resname": "ILE",
+        "key": "G:ILE68",
+        "atom": "O"
+      },
+      "distance": 4.899
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 104,
+        "icode": "",
+        "resname": "ALA",
+        "key": "G:ALA104",
+        "atom": "CB"
+      },
+      "distance": 4.9
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 54,
+        "icode": "",
+        "resname": "GLY",
+        "key": "G:GLY54",
+        "atom": "N"
+      },
+      "distance": 4.901
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 121,
+        "icode": "",
+        "resname": "LYS",
+        "key": "D:LYS121",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "OG"
+      },
+      "distance": 4.902
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 52,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER52",
+        "atom": "OG"
+      },
+      "distance": 4.907
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CZ"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 104,
+        "icode": "",
+        "resname": "ALA",
+        "key": "G:ALA104",
+        "atom": "N"
+      },
+      "distance": 4.909
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NH2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "N"
+      },
+      "distance": 4.912
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "CG"
+      },
+      "distance": 4.915
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "C"
+      },
+      "distance": 4.916
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "CA"
+      },
+      "distance": 4.922
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 67,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER67",
+        "atom": "CB"
+      },
+      "distance": 4.927
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 70,
+        "icode": "",
+        "resname": "LYS",
+        "key": "G:LYS70",
+        "atom": "C"
+      },
+      "distance": 4.928
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 51,
+        "icode": "",
+        "resname": "TRP",
+        "key": "G:TRP51",
+        "atom": "NE1"
+      },
+      "distance": 4.931
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "O"
+      },
+      "distance": 4.936
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CB"
+      },
+      "distance": 4.938
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 60,
+        "icode": "",
+        "resname": "TRP",
+        "key": "E:TRP60",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CA"
+      },
+      "distance": 4.94
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 4,
+        "icode": "",
+        "resname": "THR",
+        "key": "E:THR4",
+        "atom": "O"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD2"
+      },
+      "distance": 4.944
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "C"
+      },
+      "distance": 4.946
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "N"
+      },
+      "distance": 4.948
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "CG2"
+      },
+      "distance": 4.948
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CG2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "OD1"
+      },
+      "distance": 4.955
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 232,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU232",
+        "atom": "OE1"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 55,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER55",
+        "atom": "N"
+      },
+      "distance": 4.959
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CG"
+      },
+      "distance": 4.962
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CD"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.962
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CB"
+      },
+      "distance": 4.967
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CD"
+      },
+      "distance": 4.968
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 6,
+        "icode": "",
+        "resname": "LYS",
+        "key": "E:LYS6",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 57,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP57",
+        "atom": "OD2"
+      },
+      "distance": 4.97
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "N"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 100,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR100",
+        "atom": "C"
+      },
+      "distance": 4.97
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "CG"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 67,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER67",
+        "atom": "OG"
+      },
+      "distance": 4.972
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 59,
+        "icode": "",
+        "resname": "ASP",
+        "key": "E:ASP59",
+        "atom": "OD2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 102,
+        "icode": "",
+        "resname": "THR",
+        "key": "G:THR102",
+        "atom": "CB"
+      },
+      "distance": 4.975
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 229,
+        "icode": "",
+        "resname": "GLU",
+        "key": "D:GLU229",
+        "atom": "OE2"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "CZ"
+      },
+      "distance": 4.981
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 225,
+        "icode": "",
+        "resname": "THR",
+        "key": "D:THR225",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 71,
+        "icode": "",
+        "resname": "ASP",
+        "key": "G:ASP71",
+        "atom": "CA"
+      },
+      "distance": 4.989
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 122,
+        "icode": "",
+        "resname": "ASP",
+        "key": "D:ASP122",
+        "atom": "CB"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 101,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER101",
+        "atom": "CB"
+      },
+      "distance": 4.99
+    },
+    {
+      "epitope": {
+        "chain": "E",
+        "resseq": 3,
+        "icode": "",
+        "resname": "ARG",
+        "key": "E:ARG3",
+        "atom": "NE"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 103,
+        "icode": "",
+        "resname": "SER",
+        "key": "G:SER103",
+        "atom": "CA"
+      },
+      "distance": 4.99
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 78,
+        "icode": "",
+        "resname": "PHE",
+        "key": "G:PHE78",
+        "atom": "CD1"
+      },
+      "distance": 4.994
+    },
+    {
+      "epitope": {
+        "chain": "D",
+        "resseq": 226,
+        "icode": "",
+        "resname": "GLN",
+        "key": "D:GLN226",
+        "atom": "CA"
+      },
+      "paratope": {
+        "chain": "G",
+        "resseq": 69,
+        "icode": "",
+        "resname": "ARG",
+        "key": "G:ARG69",
+        "atom": "NH1"
+      },
+      "distance": 4.999
+    }
+  ]
+}
