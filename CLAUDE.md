@@ -72,6 +72,10 @@ Tools (see each folder's README for the full contract):
 - `tools/interface_contacts/` (skill: `interface-contacts`) — heavy-atom contact
   footprint between epitope/paratope chain groups (BioPython `NeighborSearch`,
   configurable cutoff, default 5.0 Å). Distance-based only.
+- `tools/compare_structures/` (skill: `compare-structures`) — global + per-residue
+  deviation over a selection; residues paired by **local sequence alignment**;
+  in-frame by default (`--superpose` for Kabsch); `--footprint` to restrict to an
+  interface. BioPandas + BioPython. Takes PDB (align CIF predictions first).
 
 Orchestration drivers live in `analysis/` (e.g. `align_all_predictions.py`), and
 import the tools as libraries. Experiment outputs: design-question answers go in

@@ -66,4 +66,18 @@ entry: what was done, why, and what it produced. Paired with [PLAN.md](PLAN.md).
 - Added **CONCLUSIONS.md** as the reader-facing answers document for the design
   questions (separate from this lab notebook).
 
-Next: build Tool 3 (`compare_structures`), then answer 4a/4b/4c.
+### Tool 3 (`compare-structures`)
+
+- **Built `tools/compare_structures/`** (+ skill `compare-structures`) — global +
+  per-residue deviation between two structures over a residue selection. Residues
+  paired by **local sequence alignment** per chain (handles experimental↔SCT
+  numbering/chain-layout differences). Measures **in the input frame by default**
+  (inputs assumed pre-aligned), with `--superpose` for a Kabsch fit. Optional
+  `--footprint` restricts to an `interface-contacts` footprint. BioPandas for
+  coordinates/RMSD, BioPython for pairing.
+- **Verified:** self-comparison = 0.000 Å; 4a validation run (apo vs W6/32-bound
+  B\*27:05 at the footprint) gave 2.22 Å in-frame / 1.23 Å superposed — sensible.
+
+All three composable tools (+ skills) are now complete.
+
+Next: write up design questions 4a / 4b / 4c into CONCLUSIONS.md.
