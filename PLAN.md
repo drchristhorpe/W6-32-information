@@ -143,3 +143,22 @@ footprint via `--footprint` (B\*27:05 copy 1), `--ref-chains A,B --mobile-chains
 Run for all four predictors' aligned PRAME SCTs; rank by footprint RMSD (also
 report α3-only vs β2m-only). Driver `analysis/q4d_predictor_interface_to_bound.py`;
 results in `analysis/results/q4d/`. Write up in CONCLUSIONS.md.
+
+---
+
+# Addendum (2026-06-05): Tool 5 — `mutate-sequence` (job 5)
+
+**Purpose:** apply precise point mutations to a sequence. Same folder/skill/
+editable-dep pattern as the other tools.
+
+**Contract:** `input_filepath` (a JSON `{ "sequence": "...", "mutations":
+[{"position": N, "from": "X", "to": "Y"}, ...] }`) + `output_folder`. Positions
+are **1-based**. Each mutation is validated: `from` must match the residue at
+`position`; a mismatch is an error (no silent edits). Writes
+`<stem>_mutated.json` (original + mutated sequence, applied mutations, validation)
+and `<stem>_mutated.fasta`. Stdlib only (string ops; no deps).
+
+**Test:** build the input from the A\*02:01/PRAME SCT sequence (419 aa, from the
+prediction) with mutations `G136C` and `A325C` (both validated: pos 136 = G,
+pos 325 = A); run the tool. Input in `analysis/inputs/`, output in
+`analysis/results/q5/`.

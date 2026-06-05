@@ -79,6 +79,9 @@ Tools (see each folder's README for the full contract):
 - `tools/suggest_disulphides/` (skill: `suggest-disulphides`) — propose engineerable
   disulphides between residue groups; models Sγ rotamers and checks Sγ–Sγ/χ3
   geometry (not just Cβ–Cβ); `--exclude-footprint`, pLDDT-aware. BioPython + NumPy.
+- `tools/mutate_sequence/` (skill: `mutate-sequence`) — apply validated point
+  mutations to a sequence from a JSON spec (`{sequence, mutations:[{position,from,to}]}`,
+  1-based; `from` is checked). Stdlib only. Outputs mutated JSON + FASTA.
 
 Orchestration drivers live in `analysis/` (e.g. `align_all_predictions.py`), and
 import the tools as libraries. Experiment outputs: design-question answers go in

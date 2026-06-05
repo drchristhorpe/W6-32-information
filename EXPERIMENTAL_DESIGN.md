@@ -56,6 +56,20 @@ c. Extension task. If we were to introduce an additional disulphide bridge betwe
 
 d. Extension task. Is the alphafold, esmfold or boltz2 prediction of the HLA-A*02:01 / PRAME Single Chain Trimer a better starting point for design (i.e. is closer to the bound structure in the interface region)
 
+5. Build a tool which mutates a sequence at a precise place/places. It should take a JSON input file which has the sequence to be mutated and a list  of mutation objects e.g. {'position':136, 'from':'G', 'to':'C'}
+
+e.g. 
+
+{
+    "sequence":"",
+    "mutations":[
+        {"position":136, "from":"G", "to":"C"},
+        {"position":325, "from":"A", "to":"C"}
+    ]
+}
+
+Take the sequence from the HLA-A*02:01 / PRAME Single Chain Trimer as the sequence and make the mutations.
+
 
 # Libraries to be used
 

@@ -130,3 +130,15 @@ extension answered.
   still 1.6–2.0 Å from the bound α3, so the loop needs refinement regardless.
 - **Conclusion:** Boltz-2 / ESMFold2-fast are the best design starting points,
   Boltz with a slight α3 edge. Written up in CONCLUSIONS.md 4d.
+
+### Tool 5 (`mutate-sequence`) + test
+
+- **Built `tools/mutate_sequence/`** (+ skill) — applies validated point mutations
+  from a JSON spec (`{sequence, mutations:[{position, from, to}]}`, 1-based; `from`
+  checked against the sequence, no silent edits). Stdlib only; outputs mutated
+  JSON + FASTA.
+- **Tested** on the A\*02:01/PRAME SCT (419 aa, sequence from the prediction) with
+  `G136C` + `A325C` (the engineered-disulphide cysteines): both validated and
+  applied (Cys count 6→8, exactly 2 positions changed). A deliberate wrong-`from`
+  input is correctly rejected. Input in `analysis/inputs/`, output in
+  `analysis/results/q5/`.
