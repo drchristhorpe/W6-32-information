@@ -1,0 +1,31 @@
+{
+  "input": "sct_predictions/aligned/boltz/hla_a_02_01__single_chain_trimer__SLLQHLIGL/sample_0_predicted_structure_aligned.pdb",
+  "group_a": "A:124-141",
+  "group_b": "A:324-419",
+  "criteria": {
+    "cb_cb": [
+      3.0,
+      4.5
+    ],
+    "ca_ca_max": 7.5,
+    "ss_window": [
+      1.8,
+      2.3
+    ],
+    "chi3_window": [
+      60.0,
+      120.0
+    ],
+    "cbss_window": [
+      90.0,
+      120.0
+    ],
+    "min_seq_sep": 3,
+    "ideal_ss": 2.03,
+    "ideal_chi3": 90.0
+  },
+  "exclude_footprint": "interface_description/hla_b_27_05__FRYNGLIHR__w632__1_contacts.json",
+  "n_excluded_by_footprint": 0,
+  "n_candidates": 0,
+  "candidates": []
+}

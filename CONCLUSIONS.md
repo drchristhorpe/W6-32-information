@@ -141,38 +141,40 @@ flexible / graft the bound-state α3 conformation when W6/32 binding must be ret
 **Question:** If we add a disulphide between the MHC α3 domain and the β2m→α1
 linker, where is the best location?
 
-**Method:** geometric scan (`analysis/q4c_disulphide_scan.py`) on the Boltz
-A\*02:01/PRAME SCT (the only format with the linker). For each linker (res
-**124–141**) × α3 (res 324–419) pair, build a pseudo-Cβ from the backbone (the
-linker is poly-Gly/Ser; we ask "if mutated to Cys") and keep pairs with Cβ–Cβ
-3.0–4.5 Å and Cα–Cα 4.0–7.5 Å, ranked toward the ideal Cβ–Cβ ≈ 3.85 Å. pLDDT
-recorded per residue. Results in `analysis/results/q4c/`.
+**Method:** two scans on the Boltz A\*02:01/PRAME SCT (the only format with the
+linker), over linker (res **124–141**) × α3 (res 324–419):
+1. **Proximity scan** (`analysis/q4c_disulphide_scan.py`) — pseudo-Cβ from
+   backbone, keep pairs with Cβ–Cβ 3.0–4.5 Å (crude distance proxy).
+2. **Rigorous scan** (`suggest-disulphides` tool/skill) — models Sγ over three χ1
+   rotamers and requires real disulphide geometry: Sγ–Sγ ≈ 2.03 Å, χ3 ≈ ±90°,
+   Cβ–Sγ–Sγ ≈ 105°; W6/32 footprint excluded; per-residue pLDDT.
+
+Results in `analysis/results/q4c/`.
 
 > Linker boundary: native α1 begins G-S-HSMRYF, so SCT residue 142 (Gly) is α1,
 > not linker — the linker ends at 141.
+>
+> Tool validation: scanning the whole chain, `suggest-disulphides` recovers all
+> three native disulphides (α2 Cys242–Cys305, α3 Cys344–Cys400, β2m Cys49–Cys104)
+> at Sγ–Sγ 2.0–2.1 Å, χ3 −72…−88°, with no false positives.
 
-**Result — 6 candidate pairs (best first):**
-| linker (Cys) | α3 (Cys) | Cβ–Cβ | Cα–Cα | α3 pLDDT |
-|---|---|---|---|---|
-| Gly135 | **Leu407** | 4.04 Å | 4.85 Å | 91 |
-| Gly132 | **Lys327** | 3.34 Å | 4.69 Å | 91 |
-| Gly125 | Trp345 | 3.64 Å | 6.42 Å | 93 |
-| Gly134 | Ala325 | 4.41 Å | 5.70 Å | 91 |
-| Ser133 | Thr328 | 4.45 Å | 4.98 Å | 93 |
-| Gly126 | Leu347 | 4.49 Å | 6.72 Å | 92 |
+**Result:**
+- The proximity scan flags **6 linker×α3 pairs** by Cβ–Cβ alone — α3 anchors
+  Leu407, Lys327, Trp345, Ala325, Thr328, Leu347 (all pLDDT ~91–93, all outside
+  the W6/32 footprint at SCT ~363–384).
+- The rigorous scan accepts **0** of them: under proper Sγ/χ3 geometry, **no
+  linker×α3 pair forms a viable disulphide in this static model**. The 6 Cβ–Cβ
+  hits are false positives.
+- Cause: the linker is intrinsically disordered (pLDDT **~36** vs ~92 for α3), so
+  its single predicted conformation places no residue in bonding geometry.
 
-- **Top picks:** Gly135↔Leu407 (best-balanced geometry, Cα–Cα 4.85 Å) and
-  Gly132↔Lys327 (tightest Cβ–Cβ; Lys→Cys also removes a surface charge).
-- All candidate α3 anchors are **outside the W6/32 footprint** (which maps to SCT
-  ~363–384), so the staple should not disrupt antibody binding.
+**Conclusion:** there is **no reliable disulphide site identifiable from the static
+prediction** — the proper-geometry test rejects every proximity hit. The α3 face
+nearest the linker is confidently placed (**Leu407 / Lys327**, clear of the W6/32
+epitope) and is the sensible **anchor**, but the disordered linker means the
+partner Cys cannot be sited from this model.
 
-**Conclusion:** the most promising sites pair an α3 anchor (**Leu407** or
-**Lys327**, both confidently placed and clear of the W6/32 epitope) with a nearby
-linker glycine (Gly135 or Gly132 respectively) mutated to cysteine.
-
-**Major caveat:** the linker is intrinsically disordered — its predicted pLDDT is
-**~36** vs ~92 for α3 — so the *exact* linker partner and the bond geometry are
-unreliable from a single static prediction. Treat the **α3 anchor as the reliable
-design target**; then choose/optimise the linker Cys by explicit SG-rotamer
-modelling and re-folding/MD, since a flexible linker can sample many
-conformations to satisfy the bond.
+**Recommended next step (out of scope here):** fix an α3 anchor, then explicitly
+sample/repack the linker — or re-fold/MD with a Cys pair restrained — to find a
+linker position that reaches true Sγ–Sγ/χ3 geometry. This is exactly why the crude
+Cβ–Cβ proxy is insufficient and the Sγ/χ3 tool matters.

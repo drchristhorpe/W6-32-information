@@ -11,12 +11,14 @@ dependencies = [
     "align-structure",
     "interface-contacts",
     "compare-structures",
+    "suggest-disulphides",
 ]
 
 [tool.uv.sources]
 align-structure = { path = "tools/align_structure", editable = true }
 interface-contacts = { path = "tools/interface_contacts", editable = true }
 compare-structures = { path = "tools/compare_structures", editable = true }
+suggest-disulphides = { path = "tools/suggest_disulphides", editable = true }
 
 [build-system]
 requires = ["uv_build>=0.9.28,<0.10.0"]

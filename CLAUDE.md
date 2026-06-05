@@ -76,6 +76,9 @@ Tools (see each folder's README for the full contract):
   deviation over a selection; residues paired by **local sequence alignment**;
   in-frame by default (`--superpose` for Kabsch); `--footprint` to restrict to an
   interface. BioPandas + BioPython. Takes PDB (align CIF predictions first).
+- `tools/suggest_disulphides/` (skill: `suggest-disulphides`) — propose engineerable
+  disulphides between residue groups; models Sγ rotamers and checks Sγ–Sγ/χ3
+  geometry (not just Cβ–Cβ); `--exclude-footprint`, pLDDT-aware. BioPython + NumPy.
 
 Orchestration drivers live in `analysis/` (e.g. `align_all_predictions.py`), and
 import the tools as libraries. Experiment outputs: design-question answers go in

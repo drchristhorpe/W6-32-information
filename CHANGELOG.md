@@ -103,3 +103,18 @@ Drivers in `analysis/` (import the tools as libraries); result JSONs in
 
 Experiment complete: three composable tools + skills, all four aims and the
 extension answered.
+
+### Tool 4 (`suggest-disulphides`) + rigorous 4c
+
+- **Built `tools/suggest_disulphides/`** (+ skill) — proposes engineerable
+  disulphides between residue groups by modelling Sγ over three χ1 rotamers and
+  requiring real geometry (Sγ–Sγ ≈ 2.03 Å, χ3 ≈ ±90°, Cβ–Sγ–Sγ ≈ 105°), not just
+  Cβ–Cβ distance. `--exclude-footprint`, pLDDT-aware. BioPython + NumPy. Kept the
+  standalone Cβ–Cβ scan (`analysis/q4c_*`) alongside, per request.
+- **Validated:** scanning the whole SCT chain, the tool recovers all three native
+  disulphides (α2 Cys242–Cys305, α3 Cys344–Cys400, β2m Cys49–Cys104) with near-ideal
+  geometry and no false positives.
+- **Re-ran 4c rigorously:** the 6 Cβ–Cβ proximity hits are all rejected by proper
+  Sγ/χ3 geometry → **no viable linker×α3 disulphide in the static Boltz model**
+  (linker pLDDT ~36). Updated CONCLUSIONS.md 4c: α3 anchor (Leu407/Lys327) is firm,
+  but the disordered linker partner must be sited by explicit modelling/MD.

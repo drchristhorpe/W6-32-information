@@ -74,3 +74,52 @@ Fine-scale difference between two structures.
 6. After each milestone: update CLAUDE.md + CHANGELOG.md; request commit approval.
 
 Each tool ships with a CLI entry point and is importable, so it can later be lifted into a standalone library or skill file unchanged.
+
+---
+
+# Addendum (2026-06-05): Tool 4 (planned) — `suggest-disulphides`
+
+Generalise the ad-hoc 4c scan (`analysis/q4c_disulphide_scan.py`) into a proper
+composable tool + skill, with rigorous disulphide geometry (Sγ modelling + χ₃),
+following the same folder/skill/editable-dependency pattern as the other tools.
+
+**Purpose:** given a structure, suggest residue pairs that — if both mutated to
+cysteine — could form a geometrically viable disulphide; rank by how close the
+modelled bond is to ideal.
+
+**Why more than 4c did:** the 4c script used only a Cβ–Cβ distance window. This
+tool adds Sγ placement and dihedral checks, which is the actual engineering
+criterion and the validation 4c lacked. So building this tool both delivers the
+reusable component and properly validates the 4c candidates.
+
+**Inputs / contract:** `input_filepath` + `output_folder` (same as all tools).
+- `--group-a`, `--group-b` as `CHAIN[:LO-HI]` selections. If both given → only
+  inter-group bridges (e.g. linker × α3). One/none → all-vs-all within selection.
+- Geometry (all configurable, sensible defaults): Cβ–Cβ window 3.0–4.5 Å,
+  Cα–Cα ≤ 7.5 Å, modelled **Sγ–Sγ ≈ 2.03 ± 0.3 Å**, **χ₃ (Cβ–Sγ–Sγ–Cβ) ≈ ±90 ± 30°**,
+  Cβ–Sγ–Sγ angle ≈ 105°.
+- `--min-seq-sep` (default 3) to skip near-neighbours; skip existing Cys–Cys.
+- `--exclude-footprint <contacts.json>` to drop candidates touching a protected
+  interface (e.g. don't disrupt the W6/32 epitope).
+- `--min-plddt` to flag/exclude low-confidence anchors (B-factor column).
+
+**Method:** pseudo-Cβ from backbone N,CA,C (works for Gly / "mutate to Cys");
+place Sγ for the three χ₁ rotamers (−60/60/180°) with ideal Cys geometry
+(Cβ–Sγ 1.81 Å, Cα–Cβ–Sγ 114°); for each pair test all rotamer combinations and
+keep the best that satisfies the Sγ–Sγ / χ₃ / angle windows. BioPython + NumPy
+only (no BioPandas). Rank by composite deviation from ideal bond geometry.
+
+**Output:** `<stem>_disulphides.json` — params used + ranked candidates, each with
+residue identities, Cα–Cα, Cβ–Cβ, modelled Sγ–Sγ, χ₃, χ₁ rotamers, per-residue
+pLDDT, and flags (`excluded`, `low_plddt`).
+
+**Milestones:**
+1. Build `tools/suggest_disulphides/` (module + pyproject + README) + skill
+   `.claude/skills/suggest-disulphides/`; wire as editable path dep.
+2. Re-run the 4c question through it (β2m→α1 linker 124–141 × α3, excluding the
+   W6/32 footprint); refactor `analysis/q4c_*` to call the tool (single source of
+   truth). Update CONCLUSIONS.md 4c with the Sγ/χ₃-validated picks + CHANGELOG.md.
+3. Commit on approval.
+
+**Out of scope:** full side-chain repacking / MD / re-folding to confirm a
+candidate (still recommended downstream, as noted in 4c).
