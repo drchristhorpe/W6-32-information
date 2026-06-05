@@ -1,0 +1,286 @@
+{
+  "sct": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/sct_predictions/aligned/boltz/hla_a_02_01__single_chain_trimer__SLLQHLIGL/sample_0_predicted_structure_aligned.pdb",
+  "footprint_source": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/interface_description/hla_b_27_05__FRYNGLIHR__w632__1_contacts.json",
+  "movers_source": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/analysis/results/q4a/inframe/hla_b_27_05__RRFSRSPIRR__vs__hla_b_27_05__FRYNGLIHR__w632__1_compare.json",
+  "move_threshold_A": 1.0,
+  "interface_positions_sct": [
+    25,
+    27,
+    28,
+    30,
+    82,
+    83,
+    84,
+    85,
+    261,
+    262,
+    263,
+    363,
+    364,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    373,
+    374,
+    384
+  ],
+  "moving_positions_sct": [
+    367,
+    368,
+    363,
+    364,
+    366,
+    369,
+    370,
+    25,
+    371,
+    373,
+    384,
+    374
+  ],
+  "interface_detail": [
+    {
+      "sct_position": 25,
+      "sct_resname": "ILE",
+      "source": "ILE1/B",
+      "region": "b2m",
+      "min_distance": 4.563
+    },
+    {
+      "sct_position": 27,
+      "sct_resname": "ARG",
+      "source": "ARG3/B",
+      "region": "b2m",
+      "min_distance": 2.971
+    },
+    {
+      "sct_position": 28,
+      "sct_resname": "THR",
+      "source": "THR4/B",
+      "region": "b2m",
+      "min_distance": 4.297
+    },
+    {
+      "sct_position": 30,
+      "sct_resname": "LYS",
+      "source": "LYS6/B",
+      "region": "b2m",
+      "min_distance": 3.001
+    },
+    {
+      "sct_position": 82,
+      "sct_resname": "LYS",
+      "source": "LYS58/B",
+      "region": "b2m",
+      "min_distance": 3.612
+    },
+    {
+      "sct_position": 83,
+      "sct_resname": "ASP",
+      "source": "ASP59/B",
+      "region": "b2m",
+      "min_distance": 3.173
+    },
+    {
+      "sct_position": 84,
+      "sct_resname": "TRP",
+      "source": "TRP60/B",
+      "region": "b2m",
+      "min_distance": 3.872
+    },
+    {
+      "sct_position": 85,
+      "sct_resname": "SER",
+      "source": "SER61/B",
+      "region": "b2m",
+      "min_distance": 4.491
+    },
+    {
+      "sct_position": 261,
+      "sct_resname": "GLY",
+      "source": "GLY120/A",
+      "region": "HLA",
+      "min_distance": 4.067
+    },
+    {
+      "sct_position": 262,
+      "sct_resname": "LYS",
+      "source": "LYS121/A",
+      "region": "HLA",
+      "min_distance": 3.873
+    },
+    {
+      "sct_position": 263,
+      "sct_resname": "ASP",
+      "source": "ASP122/A",
+      "region": "HLA",
+      "min_distance": 2.934
+    },
+    {
+      "sct_position": 363,
+      "sct_resname": "GLU",
+      "source": "GLU222/A",
+      "region": "HLA",
+      "min_distance": 4.832
+    },
+    {
+      "sct_position": 364,
+      "sct_resname": "ASP",
+      "source": "ASP223/A",
+      "region": "HLA",
+      "min_distance": 3.743
+    },
+    {
+      "sct_position": 366,
+      "sct_resname": "THR",
+      "source": "THR225/A",
+      "region": "HLA",
+      "min_distance": 3.351
+    },
+    {
+      "sct_position": 367,
+      "sct_resname": "GLN",
+      "source": "GLN226/A",
+      "region": "HLA",
+      "min_distance": 2.765
+    },
+    {
+      "sct_position": 368,
+      "sct_resname": "ASP",
+      "source": "ASP227/A",
+      "region": "HLA",
+      "min_distance": 3.451
+    },
+    {
+      "sct_position": 369,
+      "sct_resname": "THR",
+      "source": "THR228/A",
+      "region": "HLA",
+      "min_distance": 3.376
+    },
+    {
+      "sct_position": 370,
+      "sct_resname": "GLU",
+      "source": "GLU229/A",
+      "region": "HLA",
+      "min_distance": 2.814
+    },
+    {
+      "sct_position": 371,
+      "sct_resname": "LEU",
+      "source": "LEU230/A",
+      "region": "HLA",
+      "min_distance": 4.008
+    },
+    {
+      "sct_position": 373,
+      "sct_resname": "GLU",
+      "source": "GLU232/A",
+      "region": "HLA",
+      "min_distance": 3.308
+    },
+    {
+      "sct_position": 374,
+      "sct_resname": "THR",
+      "source": "THR233/A",
+      "region": "HLA",
+      "min_distance": 4.475
+    },
+    {
+      "sct_position": 384,
+      "sct_resname": "LYS",
+      "source": "LYS243/A",
+      "region": "HLA",
+      "min_distance": 4.11
+    }
+  ],
+  "moving_detail": [
+    {
+      "sct_position": 367,
+      "sct_resname": "GLN",
+      "source": "GLN226/A",
+      "region": "HLA",
+      "displacement": 4.352
+    },
+    {
+      "sct_position": 368,
+      "sct_resname": "ASP",
+      "source": "ASP227/A",
+      "region": "HLA",
+      "displacement": 3.729
+    },
+    {
+      "sct_position": 363,
+      "sct_resname": "GLU",
+      "source": "GLU222/A",
+      "region": "HLA",
+      "displacement": 3.527
+    },
+    {
+      "sct_position": 364,
+      "sct_resname": "ASP",
+      "source": "ASP223/A",
+      "region": "HLA",
+      "displacement": 3.462
+    },
+    {
+      "sct_position": 366,
+      "sct_resname": "THR",
+      "source": "THR225/A",
+      "region": "HLA",
+      "displacement": 3.425
+    },
+    {
+      "sct_position": 369,
+      "sct_resname": "THR",
+      "source": "THR228/A",
+      "region": "HLA",
+      "displacement": 3.17
+    },
+    {
+      "sct_position": 370,
+      "sct_resname": "GLU",
+      "source": "GLU229/A",
+      "region": "HLA",
+      "displacement": 2.997
+    },
+    {
+      "sct_position": 25,
+      "sct_resname": "ILE",
+      "source": "ILE1/B",
+      "region": "b2m",
+      "displacement": 2.536
+    },
+    {
+      "sct_position": 371,
+      "sct_resname": "LEU",
+      "source": "LEU230/A",
+      "region": "HLA",
+      "displacement": 1.984
+    },
+    {
+      "sct_position": 373,
+      "sct_resname": "GLU",
+      "source": "GLU232/A",
+      "region": "HLA",
+      "displacement": 1.644
+    },
+    {
+      "sct_position": 384,
+      "sct_resname": "LYS",
+      "source": "LYS243/A",
+      "region": "HLA",
+      "displacement": 1.546
+    },
+    {
+      "sct_position": 374,
+      "sct_resname": "THR",
+      "source": "THR233/A",
+      "region": "HLA",
+      "displacement": 1.341
+    }
+  ]
+}

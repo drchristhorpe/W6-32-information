@@ -142,3 +142,14 @@ extension answered.
   applied (Cys count 6→8, exactly 2 positions changed). A deliberate wrong-`from`
   input is correctly rejected. Input in `analysis/inputs/`, output in
   `analysis/results/q5/`.
+
+### Job 6 — W6/32 interface mapped onto the SCT
+
+- `analysis/q6_map_interface_to_sct.py`: maps the footprint + 4a movements
+  (B\*27:05/mature numbering) onto SCT numbering by local sequence alignment of the
+  B\*27:05 HLA/β2m chains against the SCT chain. Mapping validated — reproduces the
+  construct offsets (β2m +24, HLA +141) and SCT residue identities match.
+- **List 1 (in interface, 22 pos):** β2m 25–30/82–85, α2 261–263, α3 363–374/384.
+- **List 2 (move on binding, ≥1 Å, 12 pos):** α3 363–371 (Gln367 peak 4.35 Å) +
+  Lys384/Thr374, and β2m Ile25 — the conformationally responsive core. Written up
+  in CONCLUSIONS.md job 6. Result `analysis/results/q6/interface_on_sct.json`.

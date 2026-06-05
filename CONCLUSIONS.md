@@ -218,6 +218,40 @@ bound state regardless of predictor.
 constant allele offset; the ranking is robust but the absolute closeness should
 not be over-read.
 
+## Job 6 — W6/32 interface mapped onto the SCT
+
+**Task:** map the W6/32 contact positions onto the A\*02:01/PRAME SCT; list the
+positions **in the interface** and those **in/near the interface that move on
+binding**.
+
+**Method:** the footprint (interface-contacts) and apo→bound movements (4a) are in
+B\*27:05/mature numbering; mapped onto SCT numbering by local sequence alignment of
+the B\*27:05 HLA and β2m chains against the SCT chain (`analysis/q6_map_interface_to_sct.py`;
+result `analysis/results/q6/interface_on_sct.json`). The mapping reproduces the
+construct offsets (β2m +24, HLA +141) and the SCT residue identities match at every
+mapped position — confirming both the mapping and that the epitope is conserved
+B\*27→A\*02.
+
+**List 1 — in the W6/32 interface (22 positions, SCT numbering):**
+- β2m: Ile25, Arg27, Thr28, Lys30, Lys82, Asp83, Trp84, Ser85
+- HLA α2 patch: Gly261, Lys262, Asp263
+- HLA α3 loop: Glu363, Asp364, Thr366, Gln367, Asp368, Thr369, Glu370, Leu371,
+  Glu373, Thr374, Lys384
+
+**List 2 — in/near the interface and moving on binding (≥1.0 Å, 12 positions):**
+- HLA α3: **Gln367 (4.35 Å)**, Asp368 (3.73), Glu363 (3.53), Asp364 (3.46),
+  Thr366 (3.42), Thr369 (3.17), Glu370 (3.00), Leu371 (1.98), Glu373 (1.64),
+  Lys384 (1.55), Thr374 (1.34)
+- β2m: Ile25 (2.54 Å)
+
+**Conclusion / design use:** in SCT numbering, the W6/32 epitope to preserve is the
+β2m patch (25–30, 82–85), the α2 patch (261–263) and the α3 loop (363–374, 384).
+The α3 loop **363–371** (plus β2m Ile25) is the conformationally responsive core —
+the part that moves on binding and was hardest to predict (4b) — so it is both the
+key recognition determinant and the region to handle as flexible / refine toward
+the bound state in design.
+
 ---
 
-*All aims (1–4) and extension tasks (4a–4d) are addressed above.*
+*All aims (1–4), extension tasks (4a–4d) and build jobs (1–3, 5–6) are addressed
+above; the five composable tools are listed in CLAUDE.md.*

@@ -162,3 +162,24 @@ and `<stem>_mutated.fasta`. Stdlib only (string ops; no deps).
 prediction) with mutations `G136C` and `A325C` (both validated: pos 136 = G,
 pos 325 = A); run the tool. Input in `analysis/inputs/`, output in
 `analysis/results/q5/`.
+
+---
+
+# Addendum (2026-06-05): job 6 — map the W6/32 interface onto the SCT
+
+**Task:** map the W6/32 contact positions onto the A\*02:01/PRAME SCT and produce
+(1) the positions **in the interface**, and (2) the positions **in/near the
+interface that move on binding**.
+
+**Method (analysis driver, existing data):**
+- The footprint is in B\*27:05/mature numbering (interface-contacts, chain A=HLA,
+  B=β2m). Map each footprint residue onto SCT numbering by **local sequence
+  alignment** of the B\*27:05 HLA and β2m chains against the SCT chain (robust to
+  the numbering offset and B\*27↔A\*02 differences) — not hardcoded arithmetic.
+- **List 1 (in interface):** all footprint residues → SCT positions (with the SCT
+  residue identity there).
+- **List 2 (move on binding):** the 4a apo→bound per-residue displacements
+  (in-frame), filtered to residues moving ≥ 1.0 Å, → SCT positions.
+
+Driver `analysis/q6_map_interface_to_sct.py`; results in `analysis/results/q6/`;
+write-up in CONCLUSIONS.md.

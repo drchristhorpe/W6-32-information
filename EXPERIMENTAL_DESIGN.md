@@ -70,6 +70,8 @@ e.g.
 
 Take the sequence from the HLA-A*02:01 / PRAME Single Chain Trimer as the sequence and make the mutations.
 
+6. Map the contact positions found by the tool onto the single chain trimer. Produce a list of the amino acid positions that are in the interface and a second list of the positions near or in the interface that move on binding. 
+
 
 # Libraries to be used
 
