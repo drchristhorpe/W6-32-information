@@ -51,6 +51,7 @@ def prepare_cif_for_boltz(input_filepath: str | Path, output_folder: str | Path)
 
     # Regenerate _entity_poly_seq: gemmi only writes it from each polymer entity's
     # full_sequence, which is empty when the input had no sequence metadata.
+    # (Done before the rename below, since get_subchain uses the original ids.)
     model = structure[0]
     for entity in structure.entities:
         if entity.entity_type != gemmi.EntityType.Polymer:
@@ -60,6 +61,18 @@ def prepare_cif_for_boltz(input_filepath: str | Path, output_folder: str | Path)
             if subchain and len(subchain):
                 entity.full_sequence = [res.name for res in subchain]
                 break
+
+    # Make the label/asym chain id match the author chain id. gemmi's
+    # setup_entities renames subchains (e.g. 'H' -> 'Hxp'), and BoltzGen selects
+    # chains by that id -- so a chain_selection of 'H' would otherwise fail with
+    # "Chain 'H' ... not found. Available chains: Hxp".
+    subchain_remap = {}
+    for chain in model:
+        for res in chain:
+            subchain_remap[res.subchain] = chain.name
+            res.subchain = chain.name
+    for entity in structure.entities:
+        entity.subchains = [subchain_remap.get(s, s) for s in entity.subchains]
 
     out_path = output_folder / f"{input_filepath.stem}_for_boltz.cif"
     structure.make_mmcif_document().write_file(str(out_path))
@@ -72,6 +85,7 @@ def prepare_cif_for_boltz(input_filepath: str | Path, output_folder: str | Path)
         "input": str(input_filepath),
         "output": str(out_path),
         "chains": [f"{c.name}:{len(c)}" for c in model],
+        "available_chains": sorted({c.name for c in model}),  # = label_asym_id BoltzGen sees
         "polymer_entities": [e.name for e in structure.entities if e.entity_type == gemmi.EntityType.Polymer],
         "required_items_present": present,
         "missing_items": missing,
@@ -89,8 +103,8 @@ def main(argv=None) -> None:
     result = prepare_cif_for_boltz(args.input_filepath, args.output_folder)
     status = "OK — all required metadata present" if result["ok"] else f"MISSING: {result['missing_items']}"
     print(
-        f"{Path(args.input_filepath).name}: chains {result['chains']}; "
-        f"{status} -> {result['output']}"
+        f"{Path(args.input_filepath).name}: chains {result['chains']} "
+        f"(available as {result['available_chains']}); {status} -> {result['output']}"
     )
     if not result["ok"]:
         raise SystemExit(1)

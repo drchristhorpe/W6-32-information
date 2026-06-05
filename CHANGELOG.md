@@ -178,3 +178,8 @@ extension answered.
   `structures/cif/w632_heavy_chain_variable_for_boltz.cif` (120-residue VH, chain
   H; all required metadata present and populated — auth_seq_id 1–120,
   entity_poly_seq 120 rows). Fixes the BoltzGen 400 error.
+- **Job 8 follow-up:** second BoltzGen error — "Chain 'H' ... not found. Available
+  chains: Hxp". gemmi's `setup_entities()` had renamed the subchain `H`→`Hxp`, and
+  BoltzGen selects chains by that id. Tool now renames subchains back to the author
+  chain id after building `full_sequence`, so `_struct_asym.id` / `label_asym_id`
+  are `H`; regenerated the output file. Tool also reports `available_chains`.

@@ -84,6 +84,10 @@ Please reconstruct the information for the W6/32 heavy chain variable region tha
 
 Make a new file with all of the reconstructed information and call it 'structures/cif/w632_heavy_chain_variable_for_boltz.cif'
 
+Update: another error from BoltzGen
+
+boltz_api.BadRequestError: Error code: 400 - {'message': "Chain 'H' in binder chain_selection not found in structure. Available chains: Hxp", 'code': 'bad_request'}
+
 
 
 # Libraries to be used
