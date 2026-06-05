@@ -123,3 +123,23 @@ pLDDT, and flags (`excluded`, `low_plddt`).
 
 **Out of scope:** full side-chain repacking / MD / re-folding to confirm a
 candidate (still recommended downstream, as noted in 4c).
+
+---
+
+# Addendum (2026-06-05): 4d — best predictor for design (interface proximity to bound)
+
+**Question:** Is the AlphaFold3, ESMFold2(-fast) or Boltz-2 A\*02:01/PRAME SCT a
+better starting point for design — i.e. closest to the **bound** structure in the
+W6/32 interface region?
+
+**Reference choice:** no W6/32-bound A\*02:01 exists, so the bound reference is the
+W6/32-bound B\*27:05 complex (chains A,B). All predictors are scored against the
+same reference, so the (small, conserved — Aim 2 = 1.36 Å) allele offset is a
+constant and the *ranking* is fair.
+
+**Method (existing tools):** `compare-structures` (skill), in-frame (all SCTs
+already aligned to canonical; experimental co-framed), restricted to the W6/32
+footprint via `--footprint` (B\*27:05 copy 1), `--ref-chains A,B --mobile-chains A,A`.
+Run for all four predictors' aligned PRAME SCTs; rank by footprint RMSD (also
+report α3-only vs β2m-only). Driver `analysis/q4d_predictor_interface_to_bound.py`;
+results in `analysis/results/q4d/`. Write up in CONCLUSIONS.md.

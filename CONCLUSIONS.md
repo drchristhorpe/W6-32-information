@@ -5,8 +5,8 @@ This is the reader-facing answers document; the process/lab notebook is in
 [CHANGELOG.md](CHANGELOG.md). Each section records the question, the method
 (which tools/skills), the result, and the design implication.
 
-Status: 🟢 complete — all three tools built; Aims 1–4 and design questions 4a, 4b,
-and 4c (extension) answered.
+Status: 🟢 complete — four composable tools built; Aims 1–4 and extension tasks
+4a, 4b, 4c, and 4d answered.
 
 ---
 
@@ -178,3 +178,46 @@ partner Cys cannot be sited from this model.
 sample/repack the linker — or re-fold/MD with a Cys pair restrained — to find a
 linker position that reaches true Sγ–Sγ/χ3 geometry. This is exactly why the crude
 Cβ–Cβ proxy is insufficient and the Sγ/χ3 tool matters.
+
+## 4d — Which predictor is the best design starting point? (extension)
+
+**Question:** Is the AlphaFold3, ESMFold2(-fast) or Boltz-2 A\*02:01/PRAME SCT
+closer to the **bound** structure in the W6/32 interface region?
+
+**Method:** `compare-structures`, each predictor's aligned PRAME SCT vs the
+W6/32-bound B\*27:05 complex (the only bound reference — no bound A\*02:01 exists),
+Cα, in-frame, restricted to the W6/32 footprint; α3 and β2m reported separately.
+All scored against the same reference, so the conserved allele offset (Aim 2,
+1.36 Å) is constant and the ranking is fair. Driver
+`analysis/q4d_predictor_interface_to_bound.py`; results in `analysis/results/q4d/`.
+
+**Result — RMSD to W6/32-bound B\*27:05 (Å):**
+| predictor | footprint | α3 | β2m |
+|---|---|---|---|
+| **esmfold2-fast** | **1.40** | 1.66 | 0.73 |
+| **boltz** | **1.40** | **1.61** | 0.93 |
+| alphafold3 | 1.58 | 1.92 | 0.61 |
+| esmfold2 | 1.68 | 2.04 | 0.66 |
+
+- All four fall in a narrow band; **β2m is modelled well by everyone (0.6–0.9 Å)**,
+  so the discriminator is the **plastic α3 contact loop**.
+- **ESMFold2-fast and Boltz tie on the overall footprint (1.40 Å)** and both clearly
+  beat AlphaFold3 and standard ESMFold2.
+- On the most design-critical α3 region, **Boltz is best (1.61 Å)**, narrowly ahead
+  of ESMFold2-fast (1.66). AlphaFold3 models β2m best but its α3 is among the worst.
+
+**Conclusion:** **Boltz-2 and ESMFold2-fast are the best design starting points**
+for retaining W6/32 binding; they are tied at the interface overall, with **Boltz
+holding a slight edge at the α3 contact loop** that matters most. AlphaFold3 — and
+plain ESMFold2 — are *not* better here despite AF3's general reputation. Note all
+predictions still sit 1.6–2.0 Å from the bound α3 conformation (they are free-state
+predictions of a plastic loop), so the α3 loop should still be refined toward the
+bound state regardless of predictor.
+
+**Caveat:** the spread is modest (~0.3 Å at the footprint) and includes the
+constant allele offset; the ranking is robust but the absolute closeness should
+not be over-read.
+
+---
+
+*All aims (1–4) and extension tasks (4a–4d) are addressed above.*

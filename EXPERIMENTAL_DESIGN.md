@@ -54,6 +54,8 @@ b. Can we have confidence to use the Boltz2 prediction of the HLA-A*02:01/PRAME 
 
 c. Extension task. If we were to introduce an additional disulphide bridge between the alpha3 domain of the MHC molecule and the linker that joins beta2m to the alpha1 domain, where would the best location for that be?
 
+d. Extension task. Is the alphafold, esmfold or boltz2 prediction of the HLA-A*02:01 / PRAME Single Chain Trimer a better starting point for design (i.e. is closer to the bound structure in the interface region)
+
 
 # Libraries to be used
 

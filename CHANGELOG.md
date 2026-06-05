@@ -118,3 +118,15 @@ extension answered.
   Sγ/χ3 geometry → **no viable linker×α3 disulphide in the static Boltz model**
   (linker pLDDT ~36). Updated CONCLUSIONS.md 4c: α3 anchor (Leu407/Lys327) is firm,
   but the disordered linker partner must be sited by explicit modelling/MD.
+
+### 4d — best predictor for design (interface proximity to bound)
+
+- `analysis/q4d_predictor_interface_to_bound.py`: ranked all four predictors'
+  A\*02:01/PRAME SCTs by W6/32-footprint RMSD to the W6/32-bound B\*27:05 complex
+  (common reference → fair ranking despite the constant allele offset).
+- **Result:** ESMFold2-fast and Boltz tie on the overall footprint (1.40 Å);
+  Boltz is best at the design-critical α3 loop (1.61 Å). AlphaFold3 and standard
+  ESMFold2 are worse at α3 (1.92 / 2.04 Å) despite AF3 modelling β2m best. All
+  still 1.6–2.0 Å from the bound α3, so the loop needs refinement regardless.
+- **Conclusion:** Boltz-2 / ESMFold2-fast are the best design starting points,
+  Boltz with a slight α3 edge. Written up in CONCLUSIONS.md 4d.
