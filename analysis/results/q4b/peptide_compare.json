@@ -1,0 +1,92 @@
+{
+  "reference": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/structures/pdb/hla_a_02_01__SLLQHLIGL.pdb",
+  "mobile": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/sct_predictions/aligned/boltz/hla_a_02_01__single_chain_trimer__SLLQHLIGL/sample_0_predicted_structure_aligned.pdb",
+  "atoms": "ca",
+  "superposed": false,
+  "footprint": null,
+  "n_residues": 9,
+  "n_atoms": 9,
+  "global_rmsd": 0.997,
+  "max_residue_rmsd": {
+    "ref_chain": "P",
+    "resseq": 5,
+    "resname": "HIS",
+    "rmsd": 1.62,
+    "max_atom_dev": 1.62,
+    "n_atoms": 1
+  },
+  "per_residue": [
+    {
+      "ref_chain": "P",
+      "resseq": 1,
+      "resname": "SER",
+      "rmsd": 0.399,
+      "max_atom_dev": 0.399,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 2,
+      "resname": "LEU",
+      "rmsd": 0.705,
+      "max_atom_dev": 0.705,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 3,
+      "resname": "LEU",
+      "rmsd": 1.023,
+      "max_atom_dev": 1.023,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 4,
+      "resname": "GLN",
+      "rmsd": 0.985,
+      "max_atom_dev": 0.985,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 5,
+      "resname": "HIS",
+      "rmsd": 1.62,
+      "max_atom_dev": 1.62,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 6,
+      "resname": "LEU",
+      "rmsd": 0.769,
+      "max_atom_dev": 0.769,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 7,
+      "resname": "ILE",
+      "rmsd": 0.653,
+      "max_atom_dev": 0.653,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 8,
+      "resname": "GLY",
+      "rmsd": 0.706,
+      "max_atom_dev": 0.706,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "P",
+      "resseq": 9,
+      "resname": "LEU",
+      "rmsd": 1.46,
+      "max_atom_dev": 1.46,
+      "n_atoms": 1
+    }
+  ]
+}

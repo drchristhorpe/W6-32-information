@@ -1,0 +1,172 @@
+{
+  "reference": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/structures/pdb/hla_a_02_01__SLLQHLIGL.pdb",
+  "mobile": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/sct_predictions/aligned/boltz/hla_a_02_01__single_chain_trimer__SLLQHLIGL/sample_0_predicted_structure_aligned.pdb",
+  "atoms": "ca",
+  "superposed": false,
+  "footprint": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/interface_description/hla_b_27_05__FRYNGLIHR__w632__1_contacts.json",
+  "n_residues": 19,
+  "n_atoms": 19,
+  "global_rmsd": 1.563,
+  "max_residue_rmsd": {
+    "ref_chain": "A",
+    "resseq": 227,
+    "resname": "ASP",
+    "rmsd": 4.38,
+    "max_atom_dev": 4.38,
+    "n_atoms": 1
+  },
+  "per_residue": [
+    {
+      "ref_chain": "A",
+      "resseq": 120,
+      "resname": "GLY",
+      "rmsd": 1.344,
+      "max_atom_dev": 1.344,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 121,
+      "resname": "LYS",
+      "rmsd": 1.105,
+      "max_atom_dev": 1.105,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 122,
+      "resname": "ASP",
+      "rmsd": 0.897,
+      "max_atom_dev": 0.897,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 226,
+      "resname": "GLN",
+      "rmsd": 3.925,
+      "max_atom_dev": 3.925,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 227,
+      "resname": "ASP",
+      "rmsd": 4.38,
+      "max_atom_dev": 4.38,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 228,
+      "resname": "THR",
+      "rmsd": 1.867,
+      "max_atom_dev": 1.867,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 229,
+      "resname": "GLU",
+      "rmsd": 0.712,
+      "max_atom_dev": 0.712,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 230,
+      "resname": "LEU",
+      "rmsd": 0.358,
+      "max_atom_dev": 0.358,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 232,
+      "resname": "GLU",
+      "rmsd": 0.495,
+      "max_atom_dev": 0.495,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 233,
+      "resname": "THR",
+      "rmsd": 0.305,
+      "max_atom_dev": 0.305,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 243,
+      "resname": "LYS",
+      "rmsd": 0.522,
+      "max_atom_dev": 0.522,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 1,
+      "resname": "ILE",
+      "rmsd": 0.78,
+      "max_atom_dev": 0.78,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 3,
+      "resname": "ARG",
+      "rmsd": 0.681,
+      "max_atom_dev": 0.681,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 4,
+      "resname": "THR",
+      "rmsd": 0.747,
+      "max_atom_dev": 0.747,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 6,
+      "resname": "LYS",
+      "rmsd": 0.415,
+      "max_atom_dev": 0.415,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 58,
+      "resname": "LYS",
+      "rmsd": 0.368,
+      "max_atom_dev": 0.368,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 59,
+      "resname": "ASP",
+      "rmsd": 0.679,
+      "max_atom_dev": 0.679,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 60,
+      "resname": "TRP",
+      "rmsd": 0.573,
+      "max_atom_dev": 0.573,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 61,
+      "resname": "SER",
+      "rmsd": 0.712,
+      "max_atom_dev": 0.712,
+      "n_atoms": 1
+    }
+  ]
+}

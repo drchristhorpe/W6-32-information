@@ -80,4 +80,26 @@ entry: what was done, why, and what it produced. Paired with [PLAN.md](PLAN.md).
 
 All three composable tools (+ skills) are now complete.
 
-Next: write up design questions 4a / 4b / 4c into CONCLUSIONS.md.
+### Design-question analyses (Aims 1–4; 4a/4b/4c)
+
+Drivers in `analysis/` (import the tools as libraries); result JSONs in
+`analysis/results/`. Full write-ups in [CONCLUSIONS.md](CONCLUSIONS.md).
+
+- Added `compare_structures --footprint-chain-map` (remap footprint chains onto
+  the reference, e.g. copy-2 D,E → A,B).
+- **4a** (`q4a_conformational_change.py`): W6/32 binding reorients the α3 domain
+  (footprint 2.2 Å in-frame / 1.2 Å superposed, both copies), while a specificity
+  control shows α1/α2 unchanged (0.48 Å) vs α3 (2.78 Å) — change is α3-specific.
+- **Aim 2:** W6/32 epitope conserved A\*02:01 vs B\*27:05 (1.36 Å at the footprint).
+- **4b** (`q4b_boltz_sct_quality.py`): Boltz SCT is design-grade overall (1.01 Å)
+  and for the PRAME peptide (1.00 Å), with high confidence (pLDDT 0.90/pTM 0.93);
+  W6/32 epitope mostly good except the plastic α3 222–228 loop (~4 Å) — the same
+  loop implicated in 4a.
+- **4c** (`q4c_disulphide_scan.py`): geometric Cβ–Cβ scan of β2m→α1 linker (124–141,
+  after correcting the α1 G-S-HSMRYF boundary) × α3. Top disulphide sites
+  Gly135↔Leu407 and Gly132↔Lys327 (α3 anchors confidently placed, outside the
+  W6/32 footprint); linker pLDDT ~36 means the linker partner needs explicit
+  modelling.
+
+Experiment complete: three composable tools + skills, all four aims and the
+extension answered.

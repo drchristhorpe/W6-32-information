@@ -99,6 +99,7 @@ def compare_structures(
     ref_chains: list[str] | None = None,
     mobile_chains: list[str] | None = None,
     footprint: str | Path | None = None,
+    footprint_chain_map: dict[str, str] | None = None,
     atoms: str = "ca",
     superpose: bool = False,
 ) -> dict:
@@ -116,7 +117,9 @@ def compare_structures(
     if len(ref_chains) != len(mobile_chains):
         raise ValueError("ref-chains and mobile-chains must have equal length.")
 
-    keep = _footprint_filter(footprint)  # set of (chain, resseq) or None
+    # set of (ref_chain, resseq) or None; footprint chains are mapped onto the
+    # reference's chain ids (e.g. a copy-2 footprint keyed D,E -> A,B).
+    keep = _footprint_filter(footprint, footprint_chain_map)
 
     per_residue = []
     ref_pts, mob_pts = [], []  # paired atom coordinates for global RMSD / fit
@@ -193,11 +196,15 @@ def compare_structures(
     return result
 
 
-def _footprint_filter(footprint):
+def _footprint_filter(footprint, chain_map=None):
     if footprint is None:
         return None
+    chain_map = chain_map or {}
     data = json.load(open(footprint))
-    return {(r["chain"], r["resseq"]) for r in data["epitope_footprint"]}
+    return {
+        (chain_map.get(r["chain"], r["chain"]), r["resseq"])
+        for r in data["epitope_footprint"]
+    }
 
 
 def _chain_list(spec):
@@ -212,15 +219,24 @@ def main(argv=None) -> None:
     ap.add_argument("--ref-chains", default=None, help="comma list, parallel to --mobile-chains")
     ap.add_argument("--mobile-chains", default=None, help="comma list, parallel to --ref-chains")
     ap.add_argument("--footprint", default=None, help="contacts.json; restrict to its epitope_footprint residues")
+    ap.add_argument(
+        "--footprint-chain-map", default=None,
+        help="remap footprint chains onto the reference, e.g. D:A,E:B",
+    )
     ap.add_argument("--atoms", choices=("ca", "heavy"), default="ca")
     ap.add_argument("--superpose", action="store_true", help="Kabsch-fit the selection before measuring")
     args = ap.parse_args(argv)
+
+    chain_map = None
+    if args.footprint_chain_map:
+        chain_map = dict(p.split(":") for p in args.footprint_chain_map.split(","))
 
     result = compare_structures(
         args.reference_filepath, args.input_filepath, args.output_folder,
         ref_chains=_chain_list(args.ref_chains),
         mobile_chains=_chain_list(args.mobile_chains),
-        footprint=args.footprint, atoms=args.atoms, superpose=args.superpose,
+        footprint=args.footprint, footprint_chain_map=chain_map,
+        atoms=args.atoms, superpose=args.superpose,
     )
     mr = result["max_residue_rmsd"]
     print(

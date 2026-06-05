@@ -1,0 +1,196 @@
+{
+  "reference": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/structures/pdb/hla_b_27_05__RRFSRSPIRR.pdb",
+  "mobile": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/structures/pdb/hla_b_27_05__FRYNGLIHR__w632__1.pdb",
+  "atoms": "ca",
+  "superposed": true,
+  "footprint": "/Users/drchristhorpe/science/experiments/2026/W6-32-information/interface_description/hla_b_27_05__FRYNGLIHR__w632__1_contacts.json",
+  "n_residues": 22,
+  "n_atoms": 22,
+  "global_rmsd": 1.233,
+  "max_residue_rmsd": {
+    "ref_chain": "B",
+    "resseq": 1,
+    "resname": "ILE",
+    "rmsd": 3.573,
+    "max_atom_dev": 3.573,
+    "n_atoms": 1
+  },
+  "per_residue": [
+    {
+      "ref_chain": "A",
+      "resseq": 120,
+      "resname": "GLY",
+      "rmsd": 0.655,
+      "max_atom_dev": 0.655,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 121,
+      "resname": "LYS",
+      "rmsd": 0.749,
+      "max_atom_dev": 0.749,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 122,
+      "resname": "ASP",
+      "rmsd": 0.342,
+      "max_atom_dev": 0.342,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 222,
+      "resname": "GLU",
+      "rmsd": 1.611,
+      "max_atom_dev": 1.611,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 223,
+      "resname": "ASP",
+      "rmsd": 1.47,
+      "max_atom_dev": 1.47,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 225,
+      "resname": "THR",
+      "rmsd": 1.481,
+      "max_atom_dev": 1.481,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 226,
+      "resname": "GLN",
+      "rmsd": 1.92,
+      "max_atom_dev": 1.92,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 227,
+      "resname": "ASP",
+      "rmsd": 1.107,
+      "max_atom_dev": 1.107,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 228,
+      "resname": "THR",
+      "rmsd": 0.862,
+      "max_atom_dev": 0.862,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 229,
+      "resname": "GLU",
+      "rmsd": 0.773,
+      "max_atom_dev": 0.773,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 230,
+      "resname": "LEU",
+      "rmsd": 0.32,
+      "max_atom_dev": 0.32,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 232,
+      "resname": "GLU",
+      "rmsd": 0.496,
+      "max_atom_dev": 0.496,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 233,
+      "resname": "THR",
+      "rmsd": 0.39,
+      "max_atom_dev": 0.39,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "A",
+      "resseq": 243,
+      "resname": "LYS",
+      "rmsd": 0.394,
+      "max_atom_dev": 0.394,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 1,
+      "resname": "ILE",
+      "rmsd": 3.573,
+      "max_atom_dev": 3.573,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 3,
+      "resname": "ARG",
+      "rmsd": 1.51,
+      "max_atom_dev": 1.51,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 4,
+      "resname": "THR",
+      "rmsd": 1.305,
+      "max_atom_dev": 1.305,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 6,
+      "resname": "LYS",
+      "rmsd": 0.987,
+      "max_atom_dev": 0.987,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 58,
+      "resname": "LYS",
+      "rmsd": 0.544,
+      "max_atom_dev": 0.544,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 59,
+      "resname": "ASP",
+      "rmsd": 0.497,
+      "max_atom_dev": 0.497,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 60,
+      "resname": "TRP",
+      "rmsd": 0.345,
+      "max_atom_dev": 0.345,
+      "n_atoms": 1
+    },
+    {
+      "ref_chain": "B",
+      "resseq": 61,
+      "resname": "SER",
+      "rmsd": 0.313,
+      "max_atom_dev": 0.313,
+      "n_atoms": 1
+    }
+  ]
+}
