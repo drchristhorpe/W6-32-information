@@ -165,3 +165,16 @@ extension answered.
   Ala104 — framework-2 Lys42/Gly43 match the canonical VH→VHH hallmark sites to
   mutate. Extracted **VH sequence (120 aa)** → `analysis/results/q7/w632_VH.fasta`
   for folding/prediction (per request). Written up in CONCLUSIONS.md job 7.
+
+### Tool 6 (`prepare-cif-for-boltz`) + job 8
+
+- **Built `tools/prepare_cif_for_boltz/`** (+ skill) — rebuilds mmCIF polymer
+  metadata that BoltzGen requires but viewer exports strip (`_entity_poly_seq.*`,
+  `_struct_asym.*`, `_atom_site.auth_seq_id`). gemmi `setup_entities()` +
+  `assign_label_seq_id()`, then each polymer entity's `full_sequence` is filled
+  from its subchain to regenerate `_entity_poly_seq`; validates the six required
+  items. Outputs `<stem>_for_boltz.cif`.
+- **Job 8:** ran on `structures/cif/w632_heavy_chain_variable.cif` →
+  `structures/cif/w632_heavy_chain_variable_for_boltz.cif` (120-residue VH, chain
+  H; all required metadata present and populated — auth_seq_id 1–120,
+  entity_poly_seq 120 rows). Fixes the BoltzGen 400 error.

@@ -205,3 +205,23 @@ heavy chain (1–215 = VH + CH1); take **VH = residues ≤120**.
 
 Driver `analysis/q7_w632_heavy_paratope.py`; results in `analysis/results/q7/`;
 write-up in CONCLUSIONS.md. (SASA kept inline; promote to a tool if reused.)
+
+---
+
+# Addendum (2026-06-05): Tool 6 — `prepare-cif-for-boltz` (job 8)
+
+**Problem:** BoltzGen rejects the VH mmCIF — it was stripped of polymer metadata
+by a viewer export (`_entity_poly_seq.{entity_id,num,mon_id}`, `_struct_asym.{id,
+entity_id}`, `_atom_site.auth_seq_id` missing).
+
+**Tool (same folder/skill/editable-dep pattern):** reconstruct that metadata from
+the coordinates with **gemmi** — `read_structure` → `setup_entities()` →
+`assign_label_seq_id()` → populate each polymer entity's `full_sequence` from its
+subchain (this is what regenerates `_entity_poly_seq`) → write PDBx/mmCIF. Then
+**validate** the six required tokens are present in the output.
+
+**Contract:** `input_filepath` (.cif/.pdb) + `output_folder`; writes
+`<stem>_for_boltz.cif`. Dependency: gemmi.
+
+**Run for job 8:** input `structures/cif/w632_heavy_chain_variable.cif`, output
+folder `structures/cif/` → `structures/cif/w632_heavy_chain_variable_for_boltz.cif`.

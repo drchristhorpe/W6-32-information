@@ -82,6 +82,10 @@ Tools (see each folder's README for the full contract):
 - `tools/mutate_sequence/` (skill: `mutate-sequence`) — apply validated point
   mutations to a sequence from a JSON spec (`{sequence, mutations:[{position,from,to}]}`,
   1-based; `from` is checked). Stdlib only. Outputs mutated JSON + FASTA.
+- `tools/prepare_cif_for_boltz/` (skill: `prepare-cif-for-boltz`) — reconstruct
+  mmCIF polymer metadata (`_entity_poly_seq`, `_struct_asym`, `_atom_site.auth_seq_id`)
+  stripped by viewer exports, so BoltzGen accepts the file. gemmi. Outputs
+  `<stem>_for_boltz.cif`.
 
 Orchestration drivers live in `analysis/` (e.g. `align_all_predictions.py`), and
 import the tools as libraries. Experiment outputs: design-question answers go in

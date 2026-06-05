@@ -74,6 +74,17 @@ Take the sequence from the HLA-A*02:01 / PRAME Single Chain Trimer as the sequen
 
 7. Looking at the problem from the opposite angle, what are the contact patches on the W6/32 heavy chain variable region and what are the totally solvent exposed patches on the heavy chain variable region that were previously contacts for the light chain. 
 
+8. Boltz is throwing an error about not having a specific set of information about the heavy chain variable region.
+
+boltz_api.BadRequestError: Error code: 400 - {'message': 'Binder structure mmCIF is missing polymer metadata required for BoltzGen structure-template protein design (_entity_poly_seq.entity_id, _entity_poly_seq.num, _entity_poly_seq.mon_id, _atom_site.auth_seq_id, _struct_asym.id, _struct_asym.entity_id). This often happens when mmCIF files are exported or converted through structure viewers; use an original PDBx/mmCIF that preserves polymer sequence metadata.', 'code': 'bad_request'}
+
+The original file from the PDBE is now in the structure directory (structures/7t0l_updated.cif)
+
+Please reconstruct the information for the W6/32 heavy chain variable region that is in the file (structures/cif/w632_heavy_chain_variable.cif)
+
+Make a new file with all of the reconstructed information and call it 'structures/cif/w632_heavy_chain_variable_for_boltz.cif'
+
+
 
 # Libraries to be used
 

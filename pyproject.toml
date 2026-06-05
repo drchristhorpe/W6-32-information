@@ -13,6 +13,7 @@ dependencies = [
     "compare-structures",
     "suggest-disulphides",
     "mutate-sequence",
+    "prepare-cif-for-boltz",
 ]
 
 [tool.uv.sources]
@@ -21,6 +22,7 @@ interface-contacts = { path = "tools/interface_contacts", editable = true }
 compare-structures = { path = "tools/compare_structures", editable = true }
 suggest-disulphides = { path = "tools/suggest_disulphides", editable = true }
 mutate-sequence = { path = "tools/mutate_sequence", editable = true }
+prepare-cif-for-boltz = { path = "tools/prepare_cif_for_boltz", editable = true }
 
 [build-system]
 requires = ["uv_build>=0.9.28,<0.10.0"]
